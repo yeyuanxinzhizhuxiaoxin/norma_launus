@@ -1,0 +1,1540 @@
+2025-12-07 20:12:29.371 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 24800 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 20:12:29.374 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:12:29.993 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 20:12:30.003 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:12:30.004 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 20:12:30.005 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 20:12:30.045 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 640 ms
+2025-12-07 20:12:30.395 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:12:30.409 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:12:30.414 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.345 seconds (process running for 2.054)
+2025-12-07 20:16:18.845 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:16:18.845 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:16:18.854 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 9 ms
+2025-12-07 20:16:19.016 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=null, password=)
+2025-12-07 20:16:19.041 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 20:16:19.130 [http-nio-8080-exec-6] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=null, password=)
+2025-12-07 20:16:19.309 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e2fced8
+2025-12-07 20:16:19.312 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 20:16:19.338 [http-nio-8080-exec-8] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=null, password=)
+2025-12-07 20:26:53.535 [http-nio-8080-exec-4] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:29:57.576 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 20:29:58.009 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 20:29:58.023 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 20:29:58.045 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 20:30:02.529 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 9396 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 20:30:02.532 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:30:03.150 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 20:30:03.163 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:30:03.164 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 20:30:03.164 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 20:30:03.212 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 649 ms
+2025-12-07 20:30:03.548 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:30:03.564 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:30:03.568 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.325 seconds (process running for 1.983)
+2025-12-07 20:30:20.898 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:30:20.898 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:30:20.898 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-12-07 20:30:21.016 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:30:21.035 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 20:30:21.238 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@4057946d
+2025-12-07 20:30:21.240 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 20:32:29.194 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 20:32:29.612 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 20:32:29.614 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 20:32:29.619 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 20:32:33.113 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 34448 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 20:32:33.116 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:32:33.651 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 20:32:33.659 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:32:33.660 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 20:32:33.661 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 20:32:33.696 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 556 ms
+2025-12-07 20:32:34.039 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:32:34.053 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:32:34.056 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.221 seconds (process running for 1.807)
+2025-12-07 20:32:46.745 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:32:46.745 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:32:46.748 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-12-07 20:32:46.869 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:32:46.877 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 20:32:47.088 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@970d52b
+2025-12-07 20:32:47.090 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 20:35:25.035 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 20:35:25.590 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 20:35:25.593 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 20:35:25.598 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 20:35:27.397 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 15944 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 20:35:27.400 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:35:28.090 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 20:35:28.099 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:35:28.101 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 20:35:28.101 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 20:35:28.143 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 708 ms
+2025-12-07 20:35:28.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:35:28.619 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:35:28.624 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.539 seconds (process running for 2.171)
+2025-12-07 20:35:44.132 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:35:44.133 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:35:44.134 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-07 20:35:44.245 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:35:44.250 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 20:35:44.425 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@563234a
+2025-12-07 20:35:44.428 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 20:35:44.738 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 20:38:58.383 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 20:38:58.777 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 20:38:58.779 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 20:38:58.783 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 20:39:00.562 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 22884 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 20:39:00.564 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:39:01.122 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 20:39:01.130 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:39:01.132 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 20:39:01.132 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 20:39:01.175 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 584 ms
+2025-12-07 20:39:01.529 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:39:01.544 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:39:01.548 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.238 seconds (process running for 1.836)
+2025-12-07 20:41:37.260 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:41:37.261 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:41:37.263 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-07 20:41:37.383 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Dukuan369': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2025-12-07 20:42:14.991 [http-nio-8080-exec-3] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:42:15.000 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 20:42:15.192 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f9281b1
+2025-12-07 20:42:15.195 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 20:42:15.469 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 20:43:51.217 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 20:43:51.695 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 20:43:51.698 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 20:43:51.703 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 20:43:55.090 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 20856 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 20:43:55.091 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:43:55.653 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 20:43:55.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:43:55.663 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 20:43:55.663 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 20:43:55.697 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 581 ms
+2025-12-07 20:43:56.035 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:43:56.050 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:43:56.054 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.215 seconds (process running for 1.761)
+2025-12-07 20:44:00.166 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:44:00.167 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:44:00.168 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-07 20:44:00.291 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:44:00.297 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 20:44:00.515 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b3f5337
+2025-12-07 20:44:00.518 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 20:44:00.779 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 20:45:26.234 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 20:45:26.645 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 20:45:26.647 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 20:45:26.651 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 20:45:29.711 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 13824 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 20:45:29.712 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:45:30.272 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 20:45:30.278 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:45:30.280 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 20:45:30.280 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 20:45:30.314 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 578 ms
+2025-12-07 20:45:30.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:45:30.681 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:45:30.684 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.226 seconds (process running for 1.764)
+2025-12-07 20:45:33.507 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:45:33.509 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:45:33.510 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-07 20:45:33.632 [http-nio-8080-exec-2] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:45:33.636 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 20:45:33.817 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c7a6204
+2025-12-07 20:45:33.819 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 20:45:34.064 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 20:46:38.914 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 20:46:39.347 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 20:46:39.349 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 20:46:39.353 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 20:46:43.367 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 31864 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 20:46:43.371 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:46:44.266 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 20:46:44.281 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:46:44.283 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 20:46:44.283 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 20:46:44.349 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 935 ms
+2025-12-07 20:46:44.926 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:46:44.951 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:46:44.957 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 2.021 seconds (process running for 2.983)
+2025-12-07 20:46:46.871 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:46:46.871 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:46:46.872 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-07 20:46:46.987 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:46:46.992 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 20:46:47.184 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bfa4c86
+2025-12-07 20:46:47.187 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 20:46:47.454 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 20:46:47.456 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-getLtUrl:CAS_BASE_URL/cas/login?action=getlt&service=SERVICE_URL
+2025-12-07 20:49:44.755 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 20:49:45.209 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 20:49:45.211 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 20:49:45.215 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 20:49:49.962 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 28736 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 20:49:49.966 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 20:49:51.064 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 20:49:51.078 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:49:51.080 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 20:49:51.080 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 20:49:51.147 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1138 ms
+2025-12-07 20:49:51.777 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 20:49:51.809 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 20:49:51.817 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 2.292 seconds (process running for 3.296)
+2025-12-07 20:50:00.120 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 20:50:00.121 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 20:50:00.123 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-07 20:50:00.263 [http-nio-8080-exec-2] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:50:00.274 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 20:50:00.510 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@284cab6c
+2025-12-07 20:50:00.513 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 20:50:00.847 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 20:50:00.848 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-07 20:50:01.182 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.183 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.184 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.184 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 627 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.213 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.213 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.213 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.213 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 391 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.370 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.370 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.370 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-22009-HSydD1oOBjSeXQuqh3Bw-jinghua
+2025-12-07 20:50:01.370 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.370 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 443 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.460 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.460 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.461 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.461 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 396 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.478 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.478 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.478 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-07 20:50:01.478 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.478 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 343 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.479 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-最终 JSESSIONID: D9A3CEA58C661F3BEFA26C771DEAA8E0
+2025-12-07 20:50:01.519 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.520 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.520 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.520 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 218 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.539 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.539 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.539 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.540 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 730 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.545 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.546 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.546 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.546 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 380 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.561 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.561 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.561 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.561 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 239 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.566 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.567 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.567 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.567 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 379 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.575 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.576 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.576 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.576 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 686 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.596 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.597 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.597 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.597 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 352 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.603 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.604 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.604 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.604 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 501 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.615 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.615 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.615 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.615 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 283 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.623 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.623 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.623 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.623 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 337 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.873 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.873 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.874 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 299 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.874 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 396 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.881 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.881 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.881 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 299 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.881 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 281 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.923 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.924 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.924 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 299 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.924 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 322 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.932 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:01.933 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:01.933 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 299 s : OkHttp ConnectionPool
+2025-12-07 20:50:01.933 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 363 µs: OkHttp ConnectionPool
+2025-12-07 20:50:02.817 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-最终教务系统响应状态: 200
+2025-12-07 20:50:02.864 [http-nio-8080-exec-2] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:02.864 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:02.864 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 299 s : OkHttp ConnectionPool
+2025-12-07 20:50:02.864 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 506 µs: OkHttp ConnectionPool
+2025-12-07 20:50:02.873 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成功进入教务系统！
+2025-12-07 20:50:24.593 [http-nio-8080-exec-3] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:50:24.601 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 20:50:24.601 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-07 20:50:24.675 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:24.675 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:24.675 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:24.675 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 246 µs: OkHttp ConnectionPool
+2025-12-07 20:50:24.689 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:24.689 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:24.689 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:24.689 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 202 µs: OkHttp ConnectionPool
+2025-12-07 20:50:24.813 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:24.813 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-22013-HqjBK9V9WOY3uqGUbmdo-jinghua
+2025-12-07 20:50:24.813 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:24.813 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:24.813 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 265 µs: OkHttp ConnectionPool
+2025-12-07 20:50:24.892 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:24.893 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:24.893 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:50:24.893 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 412 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.913 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.913 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-07 20:50:29.913 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:29.913 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-最终 JSESSIONID: 6B0A2A96F34DFF98C27D23675961478A
+2025-12-07 20:50:29.913 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:29.913 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 286 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.937 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.937 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:29.937 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:29.937 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 395 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.962 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.963 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:29.964 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:29.964 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 658 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.966 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.966 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:29.966 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:29.966 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 153 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.983 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.983 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:29.983 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:29.983 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 223 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.989 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.989 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:29.989 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:29.989 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 324 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.998 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:29.998 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:29.998 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:29.998 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 262 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.016 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.016 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:30.016 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:30.016 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 261 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.025 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.025 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:30.025 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:30.025 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 242 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.041 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.041 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:30.041 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:30.041 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 270 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.052 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.052 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:30.052 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:50:30.052 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 252 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.366 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.366 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:30.366 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 294 s : OkHttp ConnectionPool
+2025-12-07 20:50:30.366 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 198 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.375 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.375 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:30.375 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 294 s : OkHttp ConnectionPool
+2025-12-07 20:50:30.375 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 252 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.420 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.421 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:30.421 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 294 s : OkHttp ConnectionPool
+2025-12-07 20:50:30.421 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 177 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.429 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:30.429 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:30.429 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 294 s : OkHttp ConnectionPool
+2025-12-07 20:50:30.429 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 196 µs: OkHttp ConnectionPool
+2025-12-07 20:50:31.425 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-最终教务系统响应状态: 200
+2025-12-07 20:50:31.433 [http-nio-8080-exec-3] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:50:31.433 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:50:31.434 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 293 s : OkHttp ConnectionPool
+2025-12-07 20:50:31.434 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 260 µs: OkHttp ConnectionPool
+2025-12-07 20:50:31.434 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-成功进入教务系统！
+2025-12-07 20:54:57.360 [http-nio-8080-exec-5] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 20:54:57.372 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 20:54:57.372 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-07 20:54:57.457 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:54:57.461 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:54:57.461 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:54:57.461 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 382 µs: OkHttp ConnectionPool
+2025-12-07 20:54:57.469 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:54:57.469 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:54:57.469 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:54:57.469 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 233 µs: OkHttp ConnectionPool
+2025-12-07 20:54:57.593 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:54:57.593 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-22048-SgTUmqGfPKzHzbxICeLn-jinghua
+2025-12-07 20:54:57.593 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:54:57.593 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:54:57.593 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 201 µs: OkHttp ConnectionPool
+2025-12-07 20:54:57.677 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:54:57.677 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:54:57.677 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 300 s : OkHttp ConnectionPool
+2025-12-07 20:54:57.677 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 213 µs: OkHttp ConnectionPool
+2025-12-07 20:55:01.386 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:01.386 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:01.386 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in   4 ms: OkHttp ConnectionPool
+2025-12-07 20:55:01.386 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:01.386 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after  88 ms: OkHttp ConnectionPool
+2025-12-07 20:55:01.390 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 203 µs: OkHttp ConnectionPool
+2025-12-07 20:55:01.489 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:01.489 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:01.489 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in   2 ms: OkHttp ConnectionPool
+2025-12-07 20:55:01.489 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:01.489 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after  71 ms: OkHttp ConnectionPool
+2025-12-07 20:55:01.489 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 110 µs: OkHttp ConnectionPool
+2025-12-07 20:55:01.573 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:01.573 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:01.573 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 864 µs: OkHttp ConnectionPool
+2025-12-07 20:55:01.573 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:01.573 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 359 ms: OkHttp ConnectionPool
+2025-12-07 20:55:01.573 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 147 µs: OkHttp ConnectionPool
+2025-12-07 20:55:01.942 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:01.943 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:01.944 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in   2 ms: OkHttp ConnectionPool
+2025-12-07 20:55:01.944 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:01.944 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 run again after 920 ms: OkHttp ConnectionPool
+2025-12-07 20:55:01.944 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in 164 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.699 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.699 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-07 20:55:02.699 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.699 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-最终 JSESSIONID: 79F7CE1D88313931008BDD2183243349
+2025-12-07 20:55:02.699 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.699 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 223 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.725 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.725 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.725 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.725 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 208 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.748 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.748 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.748 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.748 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 125 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.756 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.756 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.756 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.756 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 159 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.769 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.772 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.772 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.772 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 376 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.777 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.777 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.777 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.777 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 328 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.783 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.783 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.783 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.783 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 167 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.799 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.802 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.802 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.802 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 229 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.808 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.808 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.808 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.808 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 179 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.815 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.819 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.819 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.819 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 569 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.825 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.825 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.825 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 295 s : OkHttp ConnectionPool
+2025-12-07 20:55:02.825 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 199 µs: OkHttp ConnectionPool
+2025-12-07 20:55:02.874 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:02.875 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10000 finished run in   2 ms: OkHttp ConnectionPool
+2025-12-07 20:55:03.123 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:03.123 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:03.123 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 294 s : OkHttp ConnectionPool
+2025-12-07 20:55:03.123 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 168 µs: OkHttp ConnectionPool
+2025-12-07 20:55:03.133 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:03.133 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:03.133 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 294 s : OkHttp ConnectionPool
+2025-12-07 20:55:03.133 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 224 µs: OkHttp ConnectionPool
+2025-12-07 20:55:03.177 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:03.177 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:03.178 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 294 s : OkHttp ConnectionPool
+2025-12-07 20:55:03.178 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 359 µs: OkHttp ConnectionPool
+2025-12-07 20:55:03.186 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:03.186 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:03.187 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 294 s : OkHttp ConnectionPool
+2025-12-07 20:55:03.187 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 165 µs: OkHttp ConnectionPool
+2025-12-07 20:55:04.113 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-最终教务系统响应状态: 200
+2025-12-07 20:55:04.127 [http-nio-8080-exec-5] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 scheduled after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:04.128 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:04.128 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 293 s : OkHttp ConnectionPool
+2025-12-07 20:55:04.128 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 271 µs: OkHttp ConnectionPool
+2025-12-07 20:55:04.128 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-成功进入教务系统！
+2025-12-07 20:55:24.819 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:24.819 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:24.819 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in   2 ms: OkHttp ConnectionPool
+2025-12-07 20:55:24.819 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:24.819 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after   5 s : OkHttp ConnectionPool
+2025-12-07 20:55:24.819 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in  99 µs: OkHttp ConnectionPool
+2025-12-07 20:55:29.923 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:29.924 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:29.924 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in   1 ms: OkHttp ConnectionPool
+2025-12-07 20:55:29.924 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:29.924 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after  61 ms: OkHttp ConnectionPool
+2025-12-07 20:55:29.924 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in  77 µs: OkHttp ConnectionPool
+2025-12-07 20:55:29.986 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:29.987 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:29.987 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 638 µs: OkHttp ConnectionPool
+2025-12-07 20:55:29.987 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:29.987 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 442 ms: OkHttp ConnectionPool
+2025-12-07 20:55:29.987 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in  83 µs: OkHttp ConnectionPool
+2025-12-07 20:55:30.437 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:30.437 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:55:30.437 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 646 µs: OkHttp ConnectionPool
+2025-12-07 20:55:30.437 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:30.437 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 run again after 995 ms: OkHttp ConnectionPool
+2025-12-07 20:55:30.437 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in  95 µs: OkHttp ConnectionPool
+2025-12-07 20:55:31.446 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 starting              : OkHttp ConnectionPool
+2025-12-07 20:55:31.446 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10002 finished run in 785 µs: OkHttp ConnectionPool
+2025-12-07 20:59:57.595 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:59:57.595 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 20:59:57.596 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 891 µs: OkHttp ConnectionPool
+2025-12-07 20:59:57.596 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 20:59:57.596 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after   5 s : OkHttp ConnectionPool
+2025-12-07 20:59:57.596 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in  40 µs: OkHttp ConnectionPool
+2025-12-07 21:00:02.702 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 21:00:02.703 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 21:00:02.703 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 778 µs: OkHttp ConnectionPool
+2025-12-07 21:00:02.703 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 21:00:02.703 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after  69 ms: OkHttp ConnectionPool
+2025-12-07 21:00:02.703 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in  69 µs: OkHttp ConnectionPool
+2025-12-07 21:00:02.772 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 21:00:02.772 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 21:00:02.772 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 440 µs: OkHttp ConnectionPool
+2025-12-07 21:00:02.773 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 21:00:02.773 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 414 ms: OkHttp ConnectionPool
+2025-12-07 21:00:02.773 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in  63 µs: OkHttp ConnectionPool
+2025-12-07 21:00:03.187 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 21:00:03.187 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after   0 µs: OkHttp ConnectionPool
+2025-12-07 21:00:03.187 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 370 µs: OkHttp ConnectionPool
+2025-12-07 21:00:03.187 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 21:00:03.187 [OkHttp ConnectionPool] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 run again after 940 ms: OkHttp ConnectionPool
+2025-12-07 21:00:03.187 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in  33 µs: OkHttp ConnectionPool
+2025-12-07 21:00:04.139 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 starting              : OkHttp ConnectionPool
+2025-12-07 21:00:04.139 [OkHttp TaskRunner] DEBUG okhttp3.internal.concurrent.TaskRunner-Q10004 finished run in 705 µs: OkHttp ConnectionPool
+2025-12-07 21:23:51.889 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:23:52.445 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 21:23:52.452 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 21:23:52.455 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 21:24:52.667 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 3192 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 21:24:52.669 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:24:53.259 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 21:24:53.269 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:24:53.270 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 21:24:53.270 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 21:24:53.309 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 610 ms
+2025-12-07 21:24:53.647 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:24:53.664 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:24:53.668 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.272 seconds (process running for 1.934)
+2025-12-07 21:24:56.669 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:24:56.670 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:24:56.671 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-07 21:24:56.799 [http-nio-8080-exec-2] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 21:24:56.806 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 21:24:57.015 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@2edb5c12
+2025-12-07 21:24:57.017 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 21:24:57.363 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 21:24:57.365 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-07 21:24:57.849 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-22270-CHRdcWwOfDo1T7HjPUTG-jinghua
+2025-12-07 21:25:02.949 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-07 21:25:02.950 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-最终 JSESSIONID: 534DC2552454C60A76D0A0469AB2BB74
+2025-12-07 21:27:57.651 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 21:27:58.146 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 21:27:58.153 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 21:27:58.158 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 21:28:00.711 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 34340 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 21:28:00.713 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 21:28:01.333 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 21:28:01.344 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:28:01.345 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 21:28:01.346 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 21:28:01.384 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 641 ms
+2025-12-07 21:28:01.737 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 21:28:01.752 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 21:28:01.756 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.336 seconds (process running for 2.102)
+2025-12-07 21:28:19.822 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 21:28:19.822 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 21:28:19.822 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-12-07 21:28:19.936 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 21:28:19.943 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 21:28:20.121 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@64930a3d
+2025-12-07 21:28:20.123 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 21:28:20.379 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 21:28:20.382 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-07 21:28:20.754 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-22292-3GqWuTucjYzrOj72gjXK-jinghua
+2025-12-07 21:28:25.854 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-07 21:28:25.854 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-最终 JSESSIONID: AA53CBB16C38FB24D0B78A90C06FC089
+2025-12-07 21:29:08.469 [http-nio-8080-exec-2] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 21:29:08.478 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 21:29:08.478 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-07 21:29:08.703 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-22300-IOD6Fybg6glg0KwM6Mpd-jinghua
+2025-12-07 21:29:08.802 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-07 21:29:08.802 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-最终 JSESSIONID: D458ADC03A70A3DA5E28390AE6B0A23A
+2025-12-07 22:26:36.276 [http-nio-8080-exec-4] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 22:26:36.399 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 22:26:36.399 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-07 22:26:36.698 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-22748-WOK4ycwjGI1MsurH1dUd-jinghua
+2025-12-07 22:26:36.790 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-07 22:26:36.790 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-最终 JSESSIONID: 763B611F1C1250784365C22FB0CE8F1C
+2025-12-07 22:26:46.043 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-12-07 22:26:55.169 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 22:26:55.625 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 22:26:55.637 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 22:26:55.641 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 22:27:00.021 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 32568 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 22:27:00.024 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 22:27:00.633 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 22:27:00.642 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 22:27:00.643 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 22:27:00.644 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 22:27:00.689 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 636 ms
+2025-12-07 22:27:01.045 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 22:27:01.061 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 22:27:01.064 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.331 seconds (process running for 1.984)
+2025-12-07 22:27:06.773 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 22:27:06.773 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 22:27:06.774 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-07 22:27:06.798 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-12-07 22:27:25.978 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=3
+2025-12-07 22:27:26.483 [http-nio-8080-exec-3] ERROR com.partner.service.ClientService-查询成绩时发生 IO 异常
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:226)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 22:27:26.492 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 查询成绩失败: 成绩查询失败，HTTP 状态码: 901] with root cause
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:226)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 22:28:45.717 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=1
+2025-12-07 22:28:46.350 [http-nio-8080-exec-5] ERROR com.partner.service.ClientService-查询成绩时发生 IO 异常
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:226)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 22:28:46.353 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 查询成绩失败: 成绩查询失败，HTTP 状态码: 901] with root cause
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:226)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 22:29:48.946 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-07 22:29:49.003 [http-nio-8080-exec-7] ERROR com.partner.service.ClientService-查询成绩时发生 IO 异常
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:226)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 22:29:49.005 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 查询成绩失败: 成绩查询失败，HTTP 状态码: 901] with root cause
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:226)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 22:30:52.229 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 22:30:52.652 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 22:30:54.416 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 17904 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 22:30:54.419 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 22:30:54.953 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 22:30:54.959 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 22:30:54.961 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 22:30:54.961 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 22:30:54.994 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 550 ms
+2025-12-07 22:30:55.343 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 22:30:55.358 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 22:30:55.362 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.196 seconds (process running for 1.805)
+2025-12-07 22:31:00.918 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 22:31:00.919 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 22:31:00.921 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-07 22:31:01.030 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-07 22:31:01.416 [http-nio-8080-exec-1] ERROR com.partner.service.ClientService-查询成绩时发生 IO 异常
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:226)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 22:31:01.423 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 查询成绩失败: 成绩查询失败，HTTP 状态码: 901] with root cause
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:226)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 23:03:46.219 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 23:03:46.645 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 23:03:51.445 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 17808 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 23:03:51.447 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 23:03:52.030 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 23:03:52.041 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 23:03:52.043 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 23:03:52.043 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 23:03:52.089 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 614 ms
+2025-12-07 23:03:52.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 23:03:52.474 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 23:03:52.478 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.305 seconds (process running for 1.954)
+2025-12-07 23:04:05.686 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 23:04:05.687 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 23:04:05.688 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-07 23:04:05.813 [http-nio-8080-exec-2] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 23:04:05.823 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 23:04:06.079 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@44a1504b
+2025-12-07 23:04:06.082 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 23:04:06.437 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 23:04:06.438 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-07 23:04:06.927 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-23077-Ha6gTlQQpHxVwtSjAYZF-jinghua
+2025-12-07 23:04:07.020 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-07 23:04:07.021 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-最终 JSESSIONID: C0E8ED39098C02F579F5D728910D52BA
+2025-12-07 23:04:07.070 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-跳转步骤 1: https://jwglxt.haut.edu.cn/sso/jhlogin -> 状态码 302
+2025-12-07 23:04:07.071 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: http://mapp.haut.edu.cn/cas/login?service=http%3A%2F%2Fjwglxt.haut.edu.cn%2Fsso%2Fjhlogin
+2025-12-07 23:04:07.090 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-跳转步骤 2: http://mapp.haut.edu.cn/cas/login?service=http%3A%2F%2Fjwglxt.haut.edu.cn%2Fsso%2Fjhlogin -> 状态码 302
+2025-12-07 23:04:07.090 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-23078-qWHT5VRdnGnFePcMBRxC-jinghua
+2025-12-07 23:04:07.103 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-跳转步骤 3: http://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-23078-qWHT5VRdnGnFePcMBRxC-jinghua -> 状态码 301
+2025-12-07 23:04:07.103 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-23078-qWHT5VRdnGnFePcMBRxC-jinghua
+2025-12-07 23:04:07.130 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-跳转步骤 4: https://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-23078-qWHT5VRdnGnFePcMBRxC-jinghua -> 状态码 302
+2025-12-07 23:04:07.130 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=C6C8404F8275BE434F53C578CE3E30BB
+2025-12-07 23:04:07.138 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-跳转步骤 5: http://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=C6C8404F8275BE434F53C578CE3E30BB -> 状态码 301
+2025-12-07 23:04:07.139 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=C6C8404F8275BE434F53C578CE3E30BB
+2025-12-07 23:04:07.163 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-跳转步骤 6: https://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=C6C8404F8275BE434F53C578CE3E30BB -> 状态码 302
+2025-12-07 23:04:07.164 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765119844&verify=2F43E19345C19747F2E6B682FF4E795C
+2025-12-07 23:04:07.178 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-跳转步骤 7: http://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765119844&verify=2F43E19345C19747F2E6B682FF4E795C -> 状态码 301
+2025-12-07 23:04:07.179 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765119844&verify=2F43E19345C19747F2E6B682FF4E795C
+2025-12-07 23:04:07.498 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-跳转步骤 8: https://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765119844&verify=2F43E19345C19747F2E6B682FF4E795C -> 状态码 302
+2025-12-07 23:04:07.499 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html
+2025-12-07 23:04:07.509 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-跳转步骤 9: http://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html -> 状态码 301
+2025-12-07 23:04:07.509 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html
+2025-12-07 23:04:07.557 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-跳转步骤 10: https://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html -> 状态码 302
+2025-12-07 23:04:07.557 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/xtgl/index_initMenu.html?jsdm=xs&_t=1765119845348&echarts=1
+2025-12-07 23:05:14.352 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-07 23:05:14.424 [http-nio-8080-exec-5] ERROR com.partner.service.ClientService-查询成绩时发生 IO 异常
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:303)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 23:05:14.430 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 查询成绩失败: 成绩查询失败，HTTP 状态码: 901] with root cause
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:303)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 23:07:38.849 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-07 23:07:38.918 [http-nio-8080-exec-7] ERROR com.partner.service.ClientService-查询成绩时发生 IO 异常
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:303)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 23:07:38.919 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 查询成绩失败: 成绩查询失败，HTTP 状态码: 901] with root cause
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:303)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 23:08:17.744 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-07 23:08:17.825 [http-nio-8080-exec-9] ERROR com.partner.service.ClientService-查询成绩时发生 IO 异常
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:303)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 23:08:17.827 [http-nio-8080-exec-9] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 查询成绩失败: 成绩查询失败，HTTP 状态码: 901] with root cause
+java.io.IOException: 成绩查询失败，HTTP 状态码: 901
+	at com.partner.service.ClientService.queryScore(ClientService.java:303)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:715)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-07 23:13:11.084 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 23:13:11.621 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 23:13:11.625 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 23:13:11.631 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-07 23:13:15.950 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 9320 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 23:13:15.952 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 23:13:16.939 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 23:13:16.957 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 23:13:16.960 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 23:13:16.960 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 23:13:17.023 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1043 ms
+2025-12-07 23:13:17.591 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 23:13:17.607 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 23:13:17.611 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.952 seconds (process running for 2.628)
+2025-12-07 23:13:23.067 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 23:13:23.067 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 23:13:23.068 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-12-07 23:13:23.191 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-07 23:13:24.118 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-07 23:13:46.390 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-07 23:13:46.723 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-07 23:16:12.498 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 23:16:12.942 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 23:16:18.926 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 35776 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-07 23:16:18.929 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-07 23:16:19.994 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-07 23:16:20.009 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-07 23:16:20.011 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-07 23:16:20.011 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-07 23:16:20.081 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 1098 ms
+2025-12-07 23:16:20.720 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-07 23:16:20.751 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-07 23:16:20.758 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 2.285 seconds (process running for 3.273)
+2025-12-07 23:16:38.399 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-07 23:16:38.399 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-07 23:16:38.400 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-07 23:16:38.516 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-07 23:16:39.184 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-07 23:21:08.614 [http-nio-8080-exec-4] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-07 23:21:08.623 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-07 23:21:08.871 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@50b9d86b
+2025-12-07 23:21:08.873 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-07 23:21:08.972 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-07 23:21:08.973 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-07 23:21:09.222 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-23221-quXLQaaAAy4IduQBuGe3-jinghua
+2025-12-07 23:21:14.341 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-07 23:21:14.342 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-最终 JSESSIONID: BC24F9F5A5DFD10E004D0786257C91C1
+2025-12-07 23:21:14.393 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-跳转步骤 1: https://jwglxt.haut.edu.cn/sso/jhlogin -> 状态码 302
+2025-12-07 23:21:14.397 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: http://mapp.haut.edu.cn/cas/login?service=http%3A%2F%2Fjwglxt.haut.edu.cn%2Fsso%2Fjhlogin
+2025-12-07 23:21:14.419 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-跳转步骤 2: http://mapp.haut.edu.cn/cas/login?service=http%3A%2F%2Fjwglxt.haut.edu.cn%2Fsso%2Fjhlogin -> 状态码 302
+2025-12-07 23:21:14.419 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-23223-ppvYdOgTm7JAHe59AIfF-jinghua
+2025-12-07 23:21:14.436 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-跳转步骤 3: http://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-23223-ppvYdOgTm7JAHe59AIfF-jinghua -> 状态码 301
+2025-12-07 23:21:14.436 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-23223-ppvYdOgTm7JAHe59AIfF-jinghua
+2025-12-07 23:21:14.462 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-跳转步骤 4: https://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-23223-ppvYdOgTm7JAHe59AIfF-jinghua -> 状态码 302
+2025-12-07 23:21:14.463 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=3AC92932FA8E8594E9BCC7C40289E6DD
+2025-12-07 23:21:14.470 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-跳转步骤 5: http://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=3AC92932FA8E8594E9BCC7C40289E6DD -> 状态码 301
+2025-12-07 23:21:14.470 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=3AC92932FA8E8594E9BCC7C40289E6DD
+2025-12-07 23:21:14.486 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-跳转步骤 6: https://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=3AC92932FA8E8594E9BCC7C40289E6DD -> 状态码 302
+2025-12-07 23:21:14.486 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765120872&verify=866358F566983E6BBC56F238FFA420DF
+2025-12-07 23:21:14.494 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-跳转步骤 7: http://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765120872&verify=866358F566983E6BBC56F238FFA420DF -> 状态码 301
+2025-12-07 23:21:14.494 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765120872&verify=866358F566983E6BBC56F238FFA420DF
+2025-12-07 23:21:14.825 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-跳转步骤 8: https://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765120872&verify=866358F566983E6BBC56F238FFA420DF -> 状态码 302
+2025-12-07 23:21:14.826 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html
+2025-12-07 23:21:14.832 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-跳转步骤 9: http://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html -> 状态码 301
+2025-12-07 23:21:14.832 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html
+2025-12-07 23:21:14.875 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-跳转步骤 10: https://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html -> 状态码 302
+2025-12-07 23:21:14.875 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/xtgl/index_initMenu.html?jsdm=xs&_t=1765120872615&echarts=1
+2025-12-07 23:27:40.526 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-07 23:27:41.005 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-07 23:27:41.012 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-07 23:27:41.025 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.

@@ -1,0 +1,61 @@
+2025-12-08 13:34:31.482 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 27144 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 13:34:31.484 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 13:34:32.237 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 13:34:32.249 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 13:34:32.250 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 13:34:32.252 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 13:34:32.297 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 778 ms
+2025-12-08 13:34:32.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 13:34:32.870 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 13:34:32.875 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.724 seconds (process running for 2.608)
+2025-12-08 13:34:40.899 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 13:34:40.899 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 13:34:40.900 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-08 13:34:40.994 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-08 13:34:40.999 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 13:34:41.187 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@302bcb8c
+2025-12-08 13:34:41.189 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 13:34:41.521 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-08 13:34:41.523 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-08 13:34:42.471 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-31246-1B04ujqJgeThjZhjfcXa-jinghua
+2025-12-08 13:34:43.024 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-08 13:34:43.025 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-最终 JSESSIONID: 71391833372E87FBD19F4F2C1D714E82
+2025-12-08 13:34:43.501 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 1: https://jwglxt.haut.edu.cn/sso/jhlogin -> 状态码 302
+2025-12-08 13:34:43.502 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://mapp.haut.edu.cn/cas/login?service=http%3A%2F%2Fjwglxt.haut.edu.cn%2Fsso%2Fjhlogin
+2025-12-08 13:34:43.666 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 2: http://mapp.haut.edu.cn/cas/login?service=http%3A%2F%2Fjwglxt.haut.edu.cn%2Fsso%2Fjhlogin -> 状态码 302
+2025-12-08 13:34:43.668 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-31247-YeWlErQBe50fFRtob6ds-jinghua
+2025-12-08 13:34:43.832 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 3: http://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-31247-YeWlErQBe50fFRtob6ds-jinghua -> 状态码 301
+2025-12-08 13:34:43.833 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-31247-YeWlErQBe50fFRtob6ds-jinghua
+2025-12-08 13:34:44.131 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 4: https://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-31247-YeWlErQBe50fFRtob6ds-jinghua -> 状态码 302
+2025-12-08 13:34:44.132 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=B9B7C7F37D1DF3587CE9BED47B3C24DA
+2025-12-08 13:34:44.241 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 5: http://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=B9B7C7F37D1DF3587CE9BED47B3C24DA -> 状态码 301
+2025-12-08 13:34:44.241 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=B9B7C7F37D1DF3587CE9BED47B3C24DA
+2025-12-08 13:34:44.331 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 6: https://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=B9B7C7F37D1DF3587CE9BED47B3C24DA -> 状态码 302
+2025-12-08 13:34:44.331 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765172084&verify=BB8529895AD3FC7CB7353C39990056C6
+2025-12-08 13:34:44.400 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 7: http://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765172084&verify=BB8529895AD3FC7CB7353C39990056C6 -> 状态码 301
+2025-12-08 13:34:44.400 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765172084&verify=BB8529895AD3FC7CB7353C39990056C6
+2025-12-08 13:34:44.761 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 8: https://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765172084&verify=BB8529895AD3FC7CB7353C39990056C6 -> 状态码 302
+2025-12-08 13:34:44.761 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html
+2025-12-08 13:34:44.850 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 9: http://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html -> 状态码 301
+2025-12-08 13:34:44.851 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html
+2025-12-08 13:34:44.972 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 10: https://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html -> 状态码 302
+2025-12-08 13:34:44.973 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/xtgl/index_initMenu.html?jsdm=xs&_t=1765172084828&echarts=1
+2025-12-08 13:34:52.199 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-08 13:34:53.373 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-08 13:35:11.035 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-08 13:35:11.656 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-08 13:36:58.202 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-08 13:36:58.837 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-08 13:40:31.906 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-08 13:40:32.527 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-08 13:41:46.551 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-08 13:41:47.265 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-08 13:50:48.168 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-08 13:50:48.787 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-08 13:50:56.412 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=3
+2025-12-08 13:50:57.195 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 13:52:20.201 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService-正在查询成绩：学年=2023，学期=12
+2025-12-08 13:52:20.881 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 13:52:47.336 [http-nio-8080-exec-10] INFO  com.partner.service.ClientService-正在查询成绩：学年=2023，学期=3
+2025-12-08 13:52:47.996 [http-nio-8080-exec-10] INFO  com.partner.service.ClientService-成功解析 18 门课程成绩
+2025-12-08 14:44:04.805 [HikariCP:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m52s868ms518µs400ns).
