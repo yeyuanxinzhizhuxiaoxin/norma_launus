@@ -59,3 +59,1376 @@
 2025-12-08 13:52:47.336 [http-nio-8080-exec-10] INFO  com.partner.service.ClientService-正在查询成绩：学年=2023，学期=3
 2025-12-08 13:52:47.996 [http-nio-8080-exec-10] INFO  com.partner.service.ClientService-成功解析 18 门课程成绩
 2025-12-08 14:44:04.805 [HikariCP:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m52s868ms518µs400ns).
+2025-12-08 15:06:20.320 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 15:06:20.487 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 15:06:20.510 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 15:06:20.519 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:30:26.196 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 19316 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:30:26.200 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:30:26.903 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:30:26.912 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:30:26.913 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:30:26.914 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:30:26.956 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 724 ms
+2025-12-08 18:30:27.495 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:30:27.514 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:30:27.518 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.608 seconds (process running for 2.349)
+2025-12-08 18:30:47.870 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:30:47.871 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:30:47.873 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-08 18:30:47.989 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-客户登录信息：Client(id=null, account=221210400121, password=Dukuan369)
+2025-12-08 18:30:47.996 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:30:48.255 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@761c0004
+2025-12-08 18:30:48.258 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:30:48.641 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-转码后密码为: {gilight}_RHVrdWFuMzY5
+2025-12-08 18:30:48.644 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-getLtUrl:https://mapp.haut.edu.cn/cas/login?action=getlt&service=https%3A%2F%2Fportal.haut.edu.cn%2Fportal-pc%2Flogin%2FpcLogin
+2025-12-08 18:30:49.691 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://portal.haut.edu.cn/portal-pc/login/pcLogin?ticket=ST-35960-OlfjRbnqEXhVegUqcyJN-jinghua
+2025-12-08 18:30:50.215 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-业务系统响应: 302
+2025-12-08 18:30:50.216 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-最终 JSESSIONID: 67F6C00578A5F88843B69B1257A89FA7
+2025-12-08 18:30:50.551 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 1: https://jwglxt.haut.edu.cn/sso/jhlogin -> 状态码 302
+2025-12-08 18:30:50.552 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://mapp.haut.edu.cn/cas/login?service=http%3A%2F%2Fjwglxt.haut.edu.cn%2Fsso%2Fjhlogin
+2025-12-08 18:30:50.731 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 2: http://mapp.haut.edu.cn/cas/login?service=http%3A%2F%2Fjwglxt.haut.edu.cn%2Fsso%2Fjhlogin -> 状态码 302
+2025-12-08 18:30:50.731 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-35962-YdQVGYUfAkGUibyOaaJi-jinghua
+2025-12-08 18:30:50.929 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 3: http://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-35962-YdQVGYUfAkGUibyOaaJi-jinghua -> 状态码 301
+2025-12-08 18:30:50.930 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-35962-YdQVGYUfAkGUibyOaaJi-jinghua
+2025-12-08 18:30:51.023 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 4: https://jwglxt.haut.edu.cn/sso/jhlogin?ticket=ST-35962-YdQVGYUfAkGUibyOaaJi-jinghua -> 状态码 302
+2025-12-08 18:30:51.023 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=9A3C352FDD24F565C54E74720976FDE7
+2025-12-08 18:30:51.110 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 5: http://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=9A3C352FDD24F565C54E74720976FDE7 -> 状态码 301
+2025-12-08 18:30:51.110 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=9A3C352FDD24F565C54E74720976FDE7
+2025-12-08 18:30:51.215 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 6: https://jwglxt.haut.edu.cn/sso/jhlogin;jsessionid=9A3C352FDD24F565C54E74720976FDE7 -> 状态码 302
+2025-12-08 18:30:51.215 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765189850&verify=71ECF27FFE23D627313FDE4A42079F5E
+2025-12-08 18:30:51.300 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 7: http://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765189850&verify=71ECF27FFE23D627313FDE4A42079F5E -> 状态码 301
+2025-12-08 18:30:51.300 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765189850&verify=71ECF27FFE23D627313FDE4A42079F5E
+2025-12-08 18:30:51.641 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 8: https://jwglxt.haut.edu.cn/jwglxt/ticketlogin?uid=221210400121&timestamp=1765189850&verify=71ECF27FFE23D627313FDE4A42079F5E -> 状态码 302
+2025-12-08 18:30:51.642 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html
+2025-12-08 18:30:51.721 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 9: http://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html -> 状态码 301
+2025-12-08 18:30:51.722 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: https://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html
+2025-12-08 18:30:51.830 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-跳转步骤 10: https://jwglxt.haut.edu.cn/jwglxt/xtgl/login_slogin.html -> 状态码 302
+2025-12-08 18:30:51.830 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-重定向到: http://jwglxt.haut.edu.cn/jwglxt/xtgl/index_initMenu.html?jsdm=xs&_t=1765189850677&echarts=1
+2025-12-08 18:31:03.181 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=3
+2025-12-08 18:31:04.122 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:31:04.123 [http-nio-8080-exec-2] WARN  com.partner.service.ClientService-学号为空，跳过数据库存储
+2025-12-08 18:32:16.803 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 18:32:16.906 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 18:32:16.910 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 18:32:16.915 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:32:21.144 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 16248 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:32:21.147 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:32:21.767 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:32:21.774 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:32:21.776 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:32:21.776 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:32:21.820 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 644 ms
+2025-12-08 18:32:22.273 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:32:22.292 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:32:22.297 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.441 seconds (process running for 2.081)
+2025-12-08 18:32:30.438 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:32:30.438 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:32:30.439 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-08 18:32:30.524 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:32:30.660 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@458d72df
+2025-12-08 18:32:30.662 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:32:30.668 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=12
+2025-12-08 18:32:31.596 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-08 18:32:31.677 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException: 
+### Error updating database.  Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'course_name' in 'class com.partner.entity.Score'
+### The error may exist in file [E:\IDEFiles\IDEAFiles\companion\partner\target\classes\com\partner\mapper\ScoreMapper.xml]
+### The error may involve com.partner.mapper.ScoreMapper.insertScores-Inline
+### The error occurred while setting parameters
+### SQL: INSERT IGNORE INTO score         (student_id, year, semester, course_name, credit, point, grade, gpa, creat_time, update_time)         VALUES                        (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )
+### Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'course_name' in 'class com.partner.entity.Score'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'course_name' in 'class com.partner.entity.Score'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:385)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:160)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:156)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:50)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.reflection.wrapper.BaseWrapper.getChildValue(BaseWrapper.java:121)
+	at org.apache.ibatis.reflection.wrapper.MapWrapper.get(MapWrapper.java:42)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.mapping.BoundSql.getAdditionalParameter(BoundSql.java:74)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:73)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:97)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:65)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:91)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy72.insertScores(Unknown Source)
+	at com.partner.service.ClientService.queryScore(ClientService.java:366)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-08 18:34:48.429 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 18:34:48.538 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 18:34:48.540 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 18:34:48.546 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:34:54.838 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 36808 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:34:54.846 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:34:55.655 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:34:55.665 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:34:55.667 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:34:55.667 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:34:55.720 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 837 ms
+2025-12-08 18:34:56.234 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:34:56.257 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:34:56.262 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.761 seconds (process running for 2.628)
+2025-12-08 18:35:00.319 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:35:00.319 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:35:00.320 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-08 18:35:00.407 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:35:00.536 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@14edf8a7
+2025-12-08 18:35:00.539 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:35:00.545 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=3
+2025-12-08 18:35:01.404 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:35:01.486 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException: 
+### Error updating database.  Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'course_name' in 'class com.partner.entity.Score'
+### The error may exist in file [E:\IDEFiles\IDEAFiles\companion\partner\target\classes\com\partner\mapper\ScoreMapper.xml]
+### The error may involve com.partner.mapper.ScoreMapper.insertScores-Inline
+### The error occurred while setting parameters
+### SQL: INSERT IGNORE INTO score         (student_id, year, semester, course_name, credit, point, grade, gpa, creat_time, update_time)         VALUES                        (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )
+### Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'course_name' in 'class com.partner.entity.Score'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'course_name' in 'class com.partner.entity.Score'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:385)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:160)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:156)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:50)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.reflection.wrapper.BaseWrapper.getChildValue(BaseWrapper.java:121)
+	at org.apache.ibatis.reflection.wrapper.MapWrapper.get(MapWrapper.java:42)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.mapping.BoundSql.getAdditionalParameter(BoundSql.java:74)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:73)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:97)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:65)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:91)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy72.insertScores(Unknown Source)
+	at com.partner.service.ClientService.queryScore(ClientService.java:366)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-08 18:36:09.699 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 18:36:09.807 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 18:36:09.809 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 18:36:09.814 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:36:13.458 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 17788 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:36:13.460 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:36:14.063 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:36:14.070 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:36:14.071 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:36:14.072 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:36:14.118 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 629 ms
+2025-12-08 18:36:14.570 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:36:14.594 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:36:14.599 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.442 seconds (process running for 2.089)
+2025-12-08 18:36:19.423 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:36:19.424 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:36:19.424 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-12-08 18:36:19.504 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 18:36:19.508 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:36:19.631 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@23c98143
+2025-12-08 18:36:19.632 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:36:19.639 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-正在查询成绩：学年=2024，学期=3
+2025-12-08 18:36:20.514 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:36:20.609 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException: 
+### Error updating database.  Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'course_name' in 'class com.partner.entity.Score'
+### The error may exist in file [E:\IDEFiles\IDEAFiles\companion\partner\target\classes\com\partner\mapper\ScoreMapper.xml]
+### The error may involve com.partner.mapper.ScoreMapper.insertScores-Inline
+### The error occurred while setting parameters
+### SQL: INSERT IGNORE INTO score         (student_id, year, semester, course_name, credit, point, grade, gpa, creat_time, update_time)         VALUES                        (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )
+### Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'course_name' in 'class com.partner.entity.Score'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'course_name' in 'class com.partner.entity.Score'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:385)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:160)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:156)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:50)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.reflection.wrapper.BaseWrapper.getChildValue(BaseWrapper.java:121)
+	at org.apache.ibatis.reflection.wrapper.MapWrapper.get(MapWrapper.java:42)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:115)
+	at org.apache.ibatis.mapping.BoundSql.getAdditionalParameter(BoundSql.java:74)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:73)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:97)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:65)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:91)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy72.insertScores(Unknown Source)
+	at com.partner.service.ClientService.queryScore(ClientService.java:366)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-08 18:38:03.210 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 18:38:03.315 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 18:38:03.319 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 18:38:03.323 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:38:07.874 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 25904 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:38:07.876 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:38:08.570 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:38:08.580 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:38:08.583 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:38:08.583 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:38:08.634 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 723 ms
+2025-12-08 18:38:09.087 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:38:09.105 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:38:09.109 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.567 seconds (process running for 2.236)
+2025-12-08 18:38:10.791 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:38:10.792 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:38:10.793 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-12-08 18:38:10.880 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:38:11.028 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@4605719b
+2025-12-08 18:38:11.030 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:38:11.037 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 18:38:12.001 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:38:12.233 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'creat_time' in 'field list'
+### The error may exist in file [E:\IDEFiles\IDEAFiles\companion\partner\target\classes\com\partner\mapper\ScoreMapper.xml]
+### The error may involve com.partner.mapper.ScoreMapper.insertScores-Inline
+### The error occurred while setting parameters
+### SQL: INSERT IGNORE INTO score         (student_id, year, semester, course_name, credit, point, grade, gpa, creat_time, update_time)         VALUES                        (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'creat_time' in 'field list'
+; bad SQL grammar []] with root cause
+java.sql.SQLSyntaxErrorException: Unknown column 'creat_time' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy81.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy72.insertScores(Unknown Source)
+	at com.partner.service.ClientService.queryScore(ClientService.java:367)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-08 18:39:54.467 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 18:39:54.571 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 18:39:54.573 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 18:39:54.578 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:39:58.740 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 37436 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:39:58.742 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:39:59.394 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:39:59.403 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:39:59.405 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:39:59.405 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:39:59.453 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 683 ms
+2025-12-08 18:39:59.983 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:40:00.002 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:40:00.006 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.544 seconds (process running for 2.223)
+2025-12-08 18:40:02.806 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:40:02.806 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:40:02.806 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-12-08 18:40:02.888 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:40:03.018 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@23c98143
+2025-12-08 18:40:03.019 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:40:03.026 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 18:40:09.468 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:40:09.662 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLException: Column count doesn't match value count at row 1
+### The error may exist in file [E:\IDEFiles\IDEAFiles\companion\partner\target\classes\com\partner\mapper\ScoreMapper.xml]
+### The error may involve com.partner.mapper.ScoreMapper.insertScores-Inline
+### The error occurred while setting parameters
+### SQL: INSERT IGNORE INTO score         (student_id, year, semester, course_name, credit, point, grade, gpa, create_time, update_time)         VALUES                        (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )          ,              (             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?             )
+### Cause: java.sql.SQLException: Column count doesn't match value count at row 1
+; bad SQL grammar []] with root cause
+java.sql.SQLException: Column count doesn't match value count at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy81.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:239)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy72.insertScores(Unknown Source)
+	at com.partner.service.ClientService.queryScore(ClientService.java:367)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-08 18:41:20.722 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 18:41:20.864 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 18:41:20.866 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 18:41:20.870 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:41:23.091 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 19164 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:41:23.094 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:41:23.791 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:41:23.799 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:41:23.801 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:41:23.801 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:41:23.850 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 724 ms
+2025-12-08 18:41:24.330 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:41:24.351 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:41:24.356 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.549 seconds (process running for 2.357)
+2025-12-08 18:41:37.284 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:41:37.284 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:41:37.284 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-12-08 18:41:37.369 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:41:37.508 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@458d72df
+2025-12-08 18:41:37.509 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:41:37.515 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 18:41:43.718 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:41:43.831 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功插入 17 条新成绩记录
+2025-12-08 18:42:17.296 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 18:42:17.950 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:42:17.960 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成功插入 1 条新成绩记录
+2025-12-08 18:47:41.167 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 18:47:41.272 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 18:47:41.276 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 18:47:41.279 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:47:45.636 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 19976 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:47:45.639 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:47:46.279 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:47:46.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:47:46.292 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:47:46.293 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:47:46.348 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 679 ms
+2025-12-08 18:47:46.808 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:47:46.827 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:47:46.830 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.478 seconds (process running for 2.184)
+2025-12-08 18:48:01.324 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:48:01.326 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:48:01.326 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-12-08 18:48:01.416 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:48:01.571 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f166b28
+2025-12-08 18:48:01.573 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:48:01.579 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 18:48:02.512 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:48:02.586 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功插入 3 条新成绩记录
+2025-12-08 18:51:32.537 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 18:51:32.697 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 18:51:32.702 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 18:51:32.705 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:51:38.784 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 2740 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:51:38.788 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:51:39.612 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:51:39.624 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:51:39.626 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:51:39.627 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:51:39.678 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 855 ms
+2025-12-08 18:51:40.250 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:51:40.271 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:51:40.281 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.894 seconds (process running for 2.735)
+2025-12-08 18:51:48.725 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:51:48.725 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:51:48.727 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-08 18:51:48.814 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:51:48.946 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@7eedec49
+2025-12-08 18:51:48.949 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:51:48.957 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 18:51:49.977 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:51:50.047 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功插入 3 条新成绩记录
+2025-12-08 18:52:45.532 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 18:52:45.657 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 18:52:45.659 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 18:52:45.664 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:52:50.285 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 860 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:52:50.287 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:52:50.987 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:52:50.997 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:52:50.998 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:52:50.998 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:52:51.046 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 718 ms
+2025-12-08 18:52:51.621 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:52:51.646 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:52:51.651 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.636 seconds (process running for 2.301)
+2025-12-08 18:53:03.244 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:53:03.244 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:53:03.246 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-08 18:53:03.331 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:53:03.490 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f166b28
+2025-12-08 18:53:03.492 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:53:03.498 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 18:53:04.437 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.437 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-"2024-2025"
+2025-12-08 18:53:04.438 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:53:04.491 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 18:56:36.086 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 18:56:36.226 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 18:56:36.229 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 18:56:36.231 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 18:56:40.908 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 28484 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 18:56:40.910 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 18:56:41.531 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 18:56:41.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:56:41.541 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 18:56:41.541 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 18:56:41.583 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 645 ms
+2025-12-08 18:56:42.034 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 18:56:42.057 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 18:56:42.063 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.441 seconds (process running for 2.115)
+2025-12-08 18:56:56.893 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 18:56:56.893 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 18:56:56.894 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-08 18:56:56.990 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 18:56:57.132 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@458d72df
+2025-12-08 18:56:57.133 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 18:56:57.140 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 18:56:58.040 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："4.90"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："4.50"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："4.80"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："9.80"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："0.90"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："12.60"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："1.03"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："9.90"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："9.60"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："3.60"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："9.00"
+2025-12-08 18:56:58.041 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："11.75"
+2025-12-08 18:56:58.043 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："7.60"
+2025-12-08 18:56:58.043 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："7.80"
+2025-12-08 18:56:58.043 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："9.50"
+2025-12-08 18:56:58.044 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："7.00"
+2025-12-08 18:56:58.044 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-gpa参数："7.00"
+2025-12-08 18:56:58.045 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 18:56:58.127 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功插入 3 条新成绩记录
+2025-12-08 19:00:36.211 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 19:00:36.337 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 19:00:36.340 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 19:00:36.342 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 19:00:40.811 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 35336 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 19:00:40.813 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 19:00:41.451 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 19:00:41.460 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 19:00:41.461 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 19:00:41.462 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 19:00:41.500 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 657 ms
+2025-12-08 19:00:41.934 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 19:00:41.953 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 19:00:41.957 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.428 seconds (process running for 2.086)
+2025-12-08 19:00:51.538 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 19:00:51.538 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 19:00:51.540 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-08 19:00:51.622 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 19:00:51.748 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f166b28
+2025-12-08 19:00:51.750 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 19:00:51.756 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 19:00:52.649 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 19:00:52.723 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功插入 3 条新成绩记录
+2025-12-08 19:03:21.097 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 19:03:21.231 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 19:03:21.233 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 19:03:21.237 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 19:03:25.764 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 39664 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 19:03:25.766 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 19:03:26.427 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 19:03:26.436 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 19:03:26.437 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 19:03:26.437 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 19:03:26.482 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 686 ms
+2025-12-08 19:03:26.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 19:03:26.972 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 19:03:26.977 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.494 seconds (process running for 2.214)
+2025-12-08 19:03:31.028 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 19:03:31.028 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 19:03:31.030 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-08 19:03:31.124 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 19:03:31.262 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@14edf8a7
+2025-12-08 19:03:31.264 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 19:03:31.270 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 19:03:32.153 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 19:03:32.226 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功插入 1 条新成绩记录
+2025-12-08 19:05:32.522 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 19:05:32.650 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 19:05:32.653 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 19:05:32.658 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 19:05:37.204 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 6020 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 19:05:37.206 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 19:05:37.868 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 19:05:37.876 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 19:05:37.878 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 19:05:37.878 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 19:05:37.925 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 675 ms
+2025-12-08 19:05:38.398 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 19:05:38.419 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 19:05:38.423 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.53 seconds (process running for 2.216)
+2025-12-08 19:05:42.846 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 19:05:42.846 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 19:05:42.848 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-08 19:05:42.939 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 19:05:43.097 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@7933bf34
+2025-12-08 19:05:43.098 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 19:05:43.104 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 19:05:44.005 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.9-4.9-1.0-{}4.9
+2025-12-08 19:05:44.005 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.5-4.5-1.0-{}4.5
+2025-12-08 19:05:44.005 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.8-4.8-1.0-{}4.8
+2025-12-08 19:05:44.005 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.8-4.9-2.0-{}9.8
+2025-12-08 19:05:44.005 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------0.9-4.5-0.2-{}0.9
+2025-12-08 19:05:44.005 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------12.6-4.2-3.0-{}12.6
+2025-12-08 19:05:44.006 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.03-4.1-0.25-{}1.03
+2025-12-08 19:05:44.006 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.9-3.3-3.0-{}9.9
+2025-12-08 19:05:44.006 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.6-3.2-3.0-{}9.6
+2025-12-08 19:05:44.006 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------3.6-1.2-3.0-{}3.6
+2025-12-08 19:05:44.006 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.0-3.0-3.0-{}9.0
+2025-12-08 19:05:44.006 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------11.75-4.7-2.5-{}11.75
+2025-12-08 19:05:44.006 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------7.6-3.8-2.0-{}7.6
+2025-12-08 19:05:44.006 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------7.8-3.9-2.0-{}7.8
+2025-12-08 19:05:44.006 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.5-3.8-2.5-{}9.5
+2025-12-08 19:05:44.006 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------7.0-3.5-2.0-{}7.0
+2025-12-08 19:05:44.007 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------7.0-3.5-2.0-{}7.0
+2025-12-08 19:05:44.007 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 19:05:44.077 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功插入 1 条新成绩记录
+2025-12-08 19:15:30.391 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 19:15:30.515 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 19:15:30.518 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 19:15:30.520 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 19:15:34.992 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 16780 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 19:15:34.995 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 19:15:35.605 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 19:15:35.615 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 19:15:35.616 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 19:15:35.616 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 19:15:35.659 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 640 ms
+2025-12-08 19:15:36.088 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 19:15:36.110 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 19:15:36.115 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.407 seconds (process running for 2.073)
+2025-12-08 19:15:44.533 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 19:15:44.533 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 19:15:44.535 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-08 19:15:44.627 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 19:15:44.757 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@458d72df
+2025-12-08 19:15:44.760 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 19:15:44.767 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 19:15:45.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.9-4.9-4.9-1.0
+2025-12-08 19:15:45.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.5-4.5-4.5-1.0
+2025-12-08 19:15:45.646 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.8-4.8-4.8-1.0
+2025-12-08 19:15:45.646 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.8-9.8-4.9-2.0
+2025-12-08 19:15:45.656 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.partner.entity.Score.getGrade()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.partner.entity.Score.getGrade()" is null
+	at com.partner.service.ClientService.queryScore(ClientService.java:341)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.partner.service.ClientService$$SpringCGLIB$$0.queryScore(<generated>)
+	at com.partner.controller.ClientController.QueryScore(ClientController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-08 19:16:14.455 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 19:16:14.576 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 19:16:14.579 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 19:16:14.584 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 19:16:18.936 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 12316 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 19:16:18.938 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 19:16:19.573 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 19:16:19.582 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 19:16:19.583 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 19:16:19.583 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 19:16:19.626 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 652 ms
+2025-12-08 19:16:20.103 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 19:16:20.123 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 19:16:20.128 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.493 seconds (process running for 2.14)
+2025-12-08 19:16:24.477 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 19:16:24.477 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 19:16:24.478 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-08 19:16:24.565 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 19:16:24.722 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a3bad70
+2025-12-08 19:16:24.724 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 19:16:24.731 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 19:16:25.643 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.9-4.9-4.9-1.0
+2025-12-08 19:16:25.644 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.5-4.5-4.5-1.0
+2025-12-08 19:16:25.644 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.8-4.8-4.8-1.0
+2025-12-08 19:16:25.644 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.8-9.8-4.9-2.0
+2025-12-08 19:16:25.644 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------0.9-0.9-4.5-0.2
+2025-12-08 19:16:25.644 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------12.6-12.6-4.2-3.0
+2025-12-08 19:16:25.644 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.03-1.03-4.1-0.25
+2025-12-08 19:16:25.644 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.9-9.9-3.3-3.0
+2025-12-08 19:16:25.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.6-9.6-3.2-3.0
+2025-12-08 19:16:25.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------3.6-3.6-1.2-3.0
+2025-12-08 19:16:25.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.0-9.0-3.0-3.0
+2025-12-08 19:16:25.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------11.75-11.75-4.7-2.5
+2025-12-08 19:16:25.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------7.6-7.6-3.8-2.0
+2025-12-08 19:16:25.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------7.8-7.8-3.9-2.0
+2025-12-08 19:16:25.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.5-9.5-3.8-2.5
+2025-12-08 19:16:25.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------7.0-7.0-3.5-2.0
+2025-12-08 19:16:25.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------7.0-7.0-3.5-2.0
+2025-12-08 19:16:25.645 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 19:16:25.715 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功插入 3 条新成绩记录
+2025-12-08 19:17:49.142 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=12, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 19:17:49.762 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------4.9-4.9-4.9-1.0
+2025-12-08 19:17:49.762 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------4.7-4.7-4.7-1.0
+2025-12-08 19:17:49.762 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------4.8-4.8-4.8-1.0
+2025-12-08 19:17:49.762 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------1.7-1.7-3.4-0.5
+2025-12-08 19:17:49.762 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------0.9-0.9-4.5-0.2
+2025-12-08 19:17:49.762 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------1.15-1.15-4.6-0.25
+2025-12-08 19:17:49.762 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------13.2-13.2-4.4-3.0
+2025-12-08 19:17:49.762 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------7.4-7.4-3.7-2.0
+2025-12-08 19:17:49.762 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------3.9-3.9-3.9-1.0
+2025-12-08 19:17:49.763 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------6.4-6.4-3.2-2.0
+2025-12-08 19:17:49.763 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------7.5-7.5-2.5-3.0
+2025-12-08 19:17:49.763 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-08 19:17:49.778 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成功插入 11 条新成绩记录
+2025-12-08 20:09:07.261 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=12, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:09:07.999 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------4.9-4.9-4.9-1.0
+2025-12-08 20:09:08.000 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------4.7-4.7-4.7-1.0
+2025-12-08 20:09:08.000 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------4.8-4.8-4.8-1.0
+2025-12-08 20:09:08.000 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------1.7-1.7-3.4-0.5
+2025-12-08 20:09:08.000 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------0.9-0.9-4.5-0.2
+2025-12-08 20:09:08.000 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------1.15-1.15-4.6-0.25
+2025-12-08 20:09:08.000 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------13.2-13.2-4.4-3.0
+2025-12-08 20:09:08.001 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------7.4-7.4-3.7-2.0
+2025-12-08 20:09:08.001 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------3.9-3.9-3.9-1.0
+2025-12-08 20:09:08.001 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------6.4-6.4-3.2-2.0
+2025-12-08 20:09:08.001 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService--------------------7.5-7.5-2.5-3.0
+2025-12-08 20:09:08.001 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-成功解析 11 门课程成绩
+2025-12-08 20:09:08.024 [http-nio-8080-exec-4] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:09:21.000 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:09:21.631 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------4.9-4.9-4.9-1.0
+2025-12-08 20:09:21.631 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------4.5-4.5-4.5-1.0
+2025-12-08 20:09:21.631 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------4.8-4.8-4.8-1.0
+2025-12-08 20:09:21.631 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------9.8-9.8-4.9-2.0
+2025-12-08 20:09:21.632 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------0.9-0.9-4.5-0.2
+2025-12-08 20:09:21.632 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------12.6-12.6-4.2-3.0
+2025-12-08 20:09:21.632 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------1.03-1.03-4.1-0.25
+2025-12-08 20:09:21.632 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------9.9-9.9-3.3-3.0
+2025-12-08 20:09:21.632 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------9.6-9.6-3.2-3.0
+2025-12-08 20:09:21.632 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------3.6-3.6-1.2-3.0
+2025-12-08 20:09:21.633 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------9.0-9.0-3.0-3.0
+2025-12-08 20:09:21.633 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------11.75-11.75-4.7-2.5
+2025-12-08 20:09:21.633 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------7.6-7.6-3.8-2.0
+2025-12-08 20:09:21.633 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------7.8-7.8-3.9-2.0
+2025-12-08 20:09:21.633 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------9.5-9.5-3.8-2.5
+2025-12-08 20:09:21.633 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------7.0-7.0-3.5-2.0
+2025-12-08 20:09:21.633 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService--------------------7.0-7.0-3.5-2.0
+2025-12-08 20:09:21.634 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 20:09:21.638 [http-nio-8080-exec-3] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:10:06.312 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2025, xqmmc=12, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:10:06.913 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-成功解析 0 门课程成绩
+2025-12-08 20:10:06.922 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:10:26.143 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2024, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:10:26.868 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------4.9-4.9-4.9-1.0
+2025-12-08 20:10:26.868 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------4.5-4.5-4.5-1.0
+2025-12-08 20:10:26.868 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------4.8-4.8-4.8-1.0
+2025-12-08 20:10:26.868 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------9.8-9.8-4.9-2.0
+2025-12-08 20:10:26.868 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------0.9-0.9-4.5-0.2
+2025-12-08 20:10:26.868 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------12.6-12.6-4.2-3.0
+2025-12-08 20:10:26.868 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------1.03-1.03-4.1-0.25
+2025-12-08 20:10:26.868 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------9.9-9.9-3.3-3.0
+2025-12-08 20:10:26.868 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------9.6-9.6-3.2-3.0
+2025-12-08 20:10:26.869 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------3.6-3.6-1.2-3.0
+2025-12-08 20:10:26.869 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------9.0-9.0-3.0-3.0
+2025-12-08 20:10:26.869 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------11.75-11.75-4.7-2.5
+2025-12-08 20:10:26.869 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------7.6-7.6-3.8-2.0
+2025-12-08 20:10:26.869 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------7.8-7.8-3.9-2.0
+2025-12-08 20:10:26.869 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------9.5-9.5-3.8-2.5
+2025-12-08 20:10:26.869 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------7.0-7.0-3.5-2.0
+2025-12-08 20:10:26.869 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService--------------------7.0-7.0-3.5-2.0
+2025-12-08 20:10:26.869 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService-成功解析 17 门课程成绩
+2025-12-08 20:10:26.873 [http-nio-8080-exec-6] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:11:08.574 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:11:09.379 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------2.3-2.3-4.6-0.5
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------1.75-1.75-3.5-0.5
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------6.8-6.8-3.4-2.0
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------18.5-18.5-3.7-5.0
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------4.0-4.0-4.0-1.0
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------12.3-12.3-4.1-3.0
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------1.23-1.23-4.9-0.25
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------4.1-4.1-4.1-1.0
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------9.0-9.0-4.5-2.0
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------9.2-9.2-4.6-2.0
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------4.0-4.0-1.6-2.5
+2025-12-08 20:11:09.380 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------17.5-17.5-5.0-3.5
+2025-12-08 20:11:09.381 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:11:09.381 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService-成功解析 14 门课程成绩
+2025-12-08 20:11:09.408 [http-nio-8080-exec-7] INFO  com.partner.service.ClientService-成功插入 14 条新成绩记录
+2025-12-08 20:15:03.359 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:15:03.989 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------2.3-2.3-4.6-0.5
+2025-12-08 20:15:03.989 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------1.75-1.75-3.5-0.5
+2025-12-08 20:15:03.989 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------6.8-6.8-3.4-2.0
+2025-12-08 20:15:03.989 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------18.5-18.5-3.7-5.0
+2025-12-08 20:15:03.989 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------4.0-4.0-4.0-1.0
+2025-12-08 20:15:03.990 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:15:03.990 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------12.3-12.3-4.1-3.0
+2025-12-08 20:15:03.990 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------1.23-1.23-4.9-0.25
+2025-12-08 20:15:03.990 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------4.1-4.1-4.1-1.0
+2025-12-08 20:15:03.990 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------9.0-9.0-4.5-2.0
+2025-12-08 20:15:03.990 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------9.2-9.2-4.6-2.0
+2025-12-08 20:15:03.990 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------4.0-4.0-1.6-2.5
+2025-12-08 20:15:03.990 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------17.5-17.5-5.0-3.5
+2025-12-08 20:15:03.990 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:15:03.990 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService-成功解析 14 门课程成绩
+2025-12-08 20:15:03.994 [http-nio-8080-exec-8] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:15:20.997 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:15:21.627 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------2.3-2.3-4.6-0.5
+2025-12-08 20:15:21.627 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------1.75-1.75-3.5-0.5
+2025-12-08 20:15:21.627 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------6.8-6.8-3.4-2.0
+2025-12-08 20:15:21.627 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------18.5-18.5-3.7-5.0
+2025-12-08 20:15:21.627 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------4.0-4.0-4.0-1.0
+2025-12-08 20:15:21.627 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:15:21.627 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------12.3-12.3-4.1-3.0
+2025-12-08 20:15:21.627 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------1.23-1.23-4.9-0.25
+2025-12-08 20:15:21.627 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------4.1-4.1-4.1-1.0
+2025-12-08 20:15:21.628 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------9.0-9.0-4.5-2.0
+2025-12-08 20:15:21.628 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------9.2-9.2-4.6-2.0
+2025-12-08 20:15:21.628 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------4.0-4.0-1.6-2.5
+2025-12-08 20:15:21.628 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------17.5-17.5-5.0-3.5
+2025-12-08 20:15:21.628 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:15:21.628 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService-成功解析 14 门课程成绩
+2025-12-08 20:15:21.632 [http-nio-8080-exec-9] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:25:51.726 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 20:25:51.840 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 20:25:51.855 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 20:25:51.860 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 20:25:59.116 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 29140 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 20:25:59.120 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 20:25:59.839 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 20:25:59.848 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 20:25:59.850 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 20:25:59.850 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 20:25:59.900 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 736 ms
+2025-12-08 20:26:00.406 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 20:26:00.426 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 20:26:00.430 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.828 seconds (process running for 2.896)
+2025-12-08 20:26:04.861 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 20:26:04.861 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 20:26:04.862 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-08 20:26:04.960 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 20:26:05.140 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f000f7f
+2025-12-08 20:26:05.143 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 20:26:05.151 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:26:06.122 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------2.3-2.3-4.6-0.5
+2025-12-08 20:26:06.122 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.75-1.75-3.5-0.5
+2025-12-08 20:26:06.122 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------6.8-6.8-3.4-2.0
+2025-12-08 20:26:06.123 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------18.5-18.5-3.7-5.0
+2025-12-08 20:26:06.123 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.0-4.0-4.0-1.0
+2025-12-08 20:26:06.123 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:26:06.123 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------12.3-12.3-4.1-3.0
+2025-12-08 20:26:06.123 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.23-1.23-4.9-0.25
+2025-12-08 20:26:06.123 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.1-4.1-4.1-1.0
+2025-12-08 20:26:06.124 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.0-9.0-4.5-2.0
+2025-12-08 20:26:06.124 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.2-9.2-4.6-2.0
+2025-12-08 20:26:06.124 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.0-4.0-1.6-2.5
+2025-12-08 20:26:06.124 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------17.5-17.5-5.0-3.5
+2025-12-08 20:26:06.124 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:26:06.124 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 14 门课程成绩
+2025-12-08 20:26:06.171 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:26:16.129 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:26:16.763 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------2.3-2.3-4.6-0.5
+2025-12-08 20:26:16.763 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------1.75-1.75-3.5-0.5
+2025-12-08 20:26:16.763 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------6.8-6.8-3.4-2.0
+2025-12-08 20:26:16.764 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------18.5-18.5-3.7-5.0
+2025-12-08 20:26:16.764 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------4.0-4.0-4.0-1.0
+2025-12-08 20:26:16.764 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:26:16.764 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------12.3-12.3-4.1-3.0
+2025-12-08 20:26:16.764 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------1.23-1.23-4.9-0.25
+2025-12-08 20:26:16.765 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------4.1-4.1-4.1-1.0
+2025-12-08 20:26:16.765 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------9.0-9.0-4.5-2.0
+2025-12-08 20:26:16.765 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------9.2-9.2-4.6-2.0
+2025-12-08 20:26:16.765 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------4.0-4.0-1.6-2.5
+2025-12-08 20:26:16.765 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------17.5-17.5-5.0-3.5
+2025-12-08 20:26:16.765 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:26:16.765 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-成功解析 14 门课程成绩
+2025-12-08 20:26:16.771 [http-nio-8080-exec-2] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:26:27.880 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=12, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:26:28.487 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------10.0-10.0-5.0-2.0
+2025-12-08 20:26:28.487 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------2.9-2.9-2.9-1.0
+2025-12-08 20:26:28.488 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------4.8-4.8-4.8-1.0
+2025-12-08 20:26:28.488 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------4.9-4.9-4.9-1.0
+2025-12-08 20:26:28.488 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------0.9-0.9-4.5-0.2
+2025-12-08 20:26:28.488 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------5.4-5.4-2.7-2.0
+2025-12-08 20:26:28.488 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------19.8-19.8-3.3-6.0
+2025-12-08 20:26:28.488 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------12.0-12.0-3.0-4.0
+2025-12-08 20:26:28.489 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------7.6-7.6-3.8-2.0
+2025-12-08 20:26:28.489 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------11.4-11.4-3.8-3.0
+2025-12-08 20:26:28.489 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------1.18-1.18-4.7-0.25
+2025-12-08 20:26:28.489 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------4.9-4.9-4.9-1.0
+2025-12-08 20:26:28.489 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------10.8-10.8-3.6-3.0
+2025-12-08 20:26:28.489 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------5.2-5.2-2.6-2.0
+2025-12-08 20:26:28.489 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------8.2-8.2-4.1-2.0
+2025-12-08 20:26:28.490 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-成功解析 15 门课程成绩
+2025-12-08 20:26:28.533 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-成功插入 15 条新成绩记录
+2025-12-08 20:31:51.824 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 20:31:51.925 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 20:31:51.928 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 20:31:51.929 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 20:31:55.718 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 24828 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 20:31:55.721 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 20:31:56.321 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 20:31:56.329 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 20:31:56.330 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 20:31:56.330 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 20:31:56.374 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 627 ms
+2025-12-08 20:31:56.854 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 20:31:56.876 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 20:31:56.881 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.422 seconds (process running for 2.042)
+2025-12-08 20:32:01.361 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 20:32:01.361 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 20:32:01.362 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-08 20:32:01.462 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 20:32:01.604 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@836c93d
+2025-12-08 20:32:01.606 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 20:32:01.611 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=12, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:32:02.427 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------10.0-10.0-5.0-2.0
+2025-12-08 20:32:02.427 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------2.9-2.9-2.9-1.0
+2025-12-08 20:32:02.427 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.8-4.8-4.8-1.0
+2025-12-08 20:32:02.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.9-4.9-4.9-1.0
+2025-12-08 20:32:02.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------0.9-0.9-4.5-0.2
+2025-12-08 20:32:02.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------5.4-5.4-2.7-2.0
+2025-12-08 20:32:02.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------19.8-19.8-3.3-6.0
+2025-12-08 20:32:02.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------12.0-12.0-3.0-4.0
+2025-12-08 20:32:02.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------7.6-7.6-3.8-2.0
+2025-12-08 20:32:02.429 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------11.4-11.4-3.8-3.0
+2025-12-08 20:32:02.429 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.18-1.18-4.7-0.25
+2025-12-08 20:32:02.429 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.9-4.9-4.9-1.0
+2025-12-08 20:32:02.429 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------10.8-10.8-3.6-3.0
+2025-12-08 20:32:02.429 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------5.2-5.2-2.6-2.0
+2025-12-08 20:32:02.429 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------8.2-8.2-4.1-2.0
+2025-12-08 20:32:02.429 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 15 门课程成绩
+2025-12-08 20:32:02.479 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:32:38.923 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:32:39.541 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------2.3-2.3-4.6-0.5
+2025-12-08 20:32:39.541 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------1.75-1.75-3.5-0.5
+2025-12-08 20:32:39.542 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------6.8-6.8-3.4-2.0
+2025-12-08 20:32:39.542 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------18.5-18.5-3.7-5.0
+2025-12-08 20:32:39.542 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------4.0-4.0-4.0-1.0
+2025-12-08 20:32:39.542 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:32:39.543 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------12.3-12.3-4.1-3.0
+2025-12-08 20:32:39.543 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------1.23-1.23-4.9-0.25
+2025-12-08 20:32:39.543 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------4.1-4.1-4.1-1.0
+2025-12-08 20:32:39.543 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------9.0-9.0-4.5-2.0
+2025-12-08 20:32:39.543 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------9.2-9.2-4.6-2.0
+2025-12-08 20:32:39.543 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------4.0-4.0-1.6-2.5
+2025-12-08 20:32:39.543 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------17.5-17.5-5.0-3.5
+2025-12-08 20:32:39.544 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:32:39.544 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-成功解析 14 门课程成绩
+2025-12-08 20:32:39.552 [http-nio-8080-exec-5] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:36:17.047 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 20:36:17.165 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 20:36:17.167 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 20:36:17.170 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 20:36:21.189 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 21060 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 20:36:21.192 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 20:36:22.086 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 20:36:22.095 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 20:36:22.097 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 20:36:22.097 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 20:36:22.147 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 928 ms
+2025-12-08 20:36:22.582 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 20:36:22.608 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 20:36:22.613 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.718 seconds (process running for 2.506)
+2025-12-08 20:36:25.287 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 20:36:25.288 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 20:36:25.288 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-12-08 20:36:25.374 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 20:36:25.493 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@685ef72b
+2025-12-08 20:36:25.494 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 20:36:25.502 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:36:26.427 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------2.3-2.3-4.6-0.5
+2025-12-08 20:36:26.427 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.75-1.75-3.5-0.5
+2025-12-08 20:36:26.427 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------6.8-6.8-3.4-2.0
+2025-12-08 20:36:26.427 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------18.5-18.5-3.7-5.0
+2025-12-08 20:36:26.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.0-4.0-4.0-1.0
+2025-12-08 20:36:26.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:36:26.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------12.3-12.3-4.1-3.0
+2025-12-08 20:36:26.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.23-1.23-4.9-0.25
+2025-12-08 20:36:26.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.1-4.1-4.1-1.0
+2025-12-08 20:36:26.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.0-9.0-4.5-2.0
+2025-12-08 20:36:26.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.2-9.2-4.6-2.0
+2025-12-08 20:36:26.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.0-4.0-1.6-2.5
+2025-12-08 20:36:26.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------17.5-17.5-5.0-3.5
+2025-12-08 20:36:26.428 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:36:26.429 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 14 门课程成绩
+2025-12-08 20:36:26.490 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:36:37.315 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 20:36:37.420 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 20:36:37.423 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 20:36:37.427 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 20:36:39.372 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 21452 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 20:36:39.374 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 20:36:40.014 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 20:36:40.025 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 20:36:40.026 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 20:36:40.027 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 20:36:40.081 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 679 ms
+2025-12-08 20:36:40.562 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 20:36:40.579 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 20:36:40.583 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.479 seconds (process running for 2.178)
+2025-12-08 20:36:42.256 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 20:36:42.258 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 20:36:42.258 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-12-08 20:36:42.352 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 20:36:42.517 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@836c93d
+2025-12-08 20:36:42.520 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 20:36:42.524 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:36:43.337 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------2.3-2.3-4.6-0.5
+2025-12-08 20:36:43.337 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.75-1.75-3.5-0.5
+2025-12-08 20:36:43.339 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------6.8-6.8-3.4-2.0
+2025-12-08 20:36:43.339 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------18.5-18.5-3.7-5.0
+2025-12-08 20:36:43.339 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.0-4.0-4.0-1.0
+2025-12-08 20:36:43.339 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:36:43.339 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------12.3-12.3-4.1-3.0
+2025-12-08 20:36:43.339 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.23-1.23-4.9-0.25
+2025-12-08 20:36:43.340 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.1-4.1-4.1-1.0
+2025-12-08 20:36:43.340 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.0-9.0-4.5-2.0
+2025-12-08 20:36:43.340 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.2-9.2-4.6-2.0
+2025-12-08 20:36:43.340 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.0-4.0-1.6-2.5
+2025-12-08 20:36:43.340 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------17.5-17.5-5.0-3.5
+2025-12-08 20:36:43.340 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:36:43.340 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 14 门课程成绩
+2025-12-08 20:36:43.390 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:39:32.086 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 20:39:32.183 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 20:39:32.186 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 20:39:32.191 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-08 20:39:35.885 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 5168 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-08 20:39:35.887 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-08 20:39:36.443 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-08 20:39:36.450 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-08 20:39:36.451 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-08 20:39:36.451 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-08 20:39:36.497 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 583 ms
+2025-12-08 20:39:36.908 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-08 20:39:36.923 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-08 20:39:36.927 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.312 seconds (process running for 1.969)
+2025-12-08 20:39:43.851 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-08 20:39:43.852 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-08 20:39:43.853 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-08 20:39:43.939 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-08 20:39:44.053 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@836c93d
+2025-12-08 20:39:44.055 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-08 20:39:44.062 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成绩查询参数ScoreQuery(xnmmc=2022, xqmmc=3, account=221210400121, JSESSIONID=E9682561D7B7F74AFAED5CB1EAFBD276, route=473fb57554a3116593e73eb21a68efa3)
+2025-12-08 20:39:44.911 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------2.3-2.3-4.6-0.5
+2025-12-08 20:39:44.911 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.75-1.75-3.5-0.5
+2025-12-08 20:39:44.912 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------6.8-6.8-3.4-2.0
+2025-12-08 20:39:44.912 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------18.5-18.5-3.7-5.0
+2025-12-08 20:39:44.912 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.0-4.0-4.0-1.0
+2025-12-08 20:39:44.912 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:39:44.912 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------12.3-12.3-4.1-3.0
+2025-12-08 20:39:44.912 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------1.23-1.23-4.9-0.25
+2025-12-08 20:39:44.913 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.1-4.1-4.1-1.0
+2025-12-08 20:39:44.913 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.0-9.0-4.5-2.0
+2025-12-08 20:39:44.913 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------9.2-9.2-4.6-2.0
+2025-12-08 20:39:44.913 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------4.0-4.0-1.6-2.5
+2025-12-08 20:39:44.914 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------17.5-17.5-5.0-3.5
+2025-12-08 20:39:44.914 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService--------------------3.7-3.7-3.7-1.0
+2025-12-08 20:39:44.914 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-成功解析 14 门课程成绩
+2025-12-08 20:39:44.970 [http-nio-8080-exec-1] INFO  com.partner.service.ClientService-无新成绩需要插入
+2025-12-08 20:39:44.978 [http-nio-8080-exec-1] INFO  com.partner.controller.ClientController-[Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=劳动教育（理论）, credit=0.5, point=4.6, grade=96.0, gpa=2.3, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=生涯教育, credit=0.5, point=3.5, grade=85.0, gpa=1.75, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=大学英语（一）, credit=2.0, point=3.4, grade=84.0, gpa=6.8, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=高等数学A（一）, credit=5.0, point=3.7, grade=87.0, gpa=18.5, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=音乐鉴赏, credit=1.0, point=4.0, grade=90.0, gpa=4.0, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=中国传统文化, credit=1.0, point=3.7, grade=87.0, gpa=3.7, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=思想道德与法治, credit=3.0, point=4.1, grade=91.0, gpa=12.299999999999999, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=形势与政策（一）, credit=0.25, point=4.9, grade=99.0, gpa=1.225, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=大学体育（一）, credit=1.0, point=4.1, grade=91.0, gpa=4.1, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=军事理论, credit=2.0, point=4.5, grade=95.0, gpa=9.0, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=心理健康教育, credit=2.0, point=4.6, grade=96.0, gpa=9.2, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=线性代数, credit=2.5, point=1.6, grade=66.0, gpa=4.0, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=程序设计基础, credit=3.5, point=5.0, grade=100.0, gpa=17.5, createTime=null, updateTime=null), Score(id=null, studentId=221210400121, year=2022-2023, semester=1, courseName=专业导论, credit=1.0, point=3.7, grade=87.0, gpa=3.7, createTime=null, updateTime=null)]
+2025-12-08 20:40:58.401 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-08 20:40:58.526 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-08 20:40:58.529 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-08 20:40:58.534 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.

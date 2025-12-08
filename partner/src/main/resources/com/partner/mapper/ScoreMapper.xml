@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.partner.mapper.ScoreMapper">
+
+    <insert id="insertScores" parameterType="list">
+        INSERT IGNORE INTO score
+        (student_id, year, semester, course_name, credit, point, grade, gpa, create_time, update_time)
+        VALUES
+        <foreach collection="list" item="score" separator=",">
+            (
+            #{score.studentId},
+            #{score.year},
+            #{score.semester},
+            #{score.courseName},
+            #{score.credit},
+            #{score.point},
+            #{score.grade},
+            #{score.gpa},
+            #{score.createTime},
+            #{score.updateTime}
+            )
+        </foreach>
+    </insert>
+
+    <select id="selectByStudentAndTerm" resultType="com.partner.entity.Score">
+        SELECT * FROM score
+        WHERE student_id = #{studentId}
+          AND year = #{year}
+          AND semester = #{semester}
+    </select>
+</mapper>

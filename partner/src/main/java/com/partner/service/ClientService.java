@@ -1,5 +1,6 @@
 package com.partner.service;
 
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.partner.entity.Client;
@@ -8,6 +9,7 @@ import com.partner.entity.Score;
 import com.partner.entity.ScoreQuery;
 import com.partner.enums.SitesURL;
 import com.partner.mapper.ClientMapper;
+import com.partner.mapper.ScoreMapper;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,9 +17,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.net.*;
 import java.nio.charset.StandardCharsets;
 import java.time.Instant;
+import java.time.LocalDateTime;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
@@ -31,6 +36,9 @@ import static java.lang.Double.parseDouble;
 public class ClientService {
     @Autowired
     ClientMapper clientMapper;
+
+    @Autowired
+    ScoreMapper scoreMapper;
 
     /**
      * 客户登录时插入数据
@@ -179,7 +187,7 @@ public class ClientService {
      */
     public Map<String, String> enterJiaowuSystem(LoginContext loginContext) throws IOException {
         OkHttpClient client = loginContext.getOkHttpClient().newBuilder()
-                .followRedirects(false) // ❗ 关键：关闭自动重定向
+                .followRedirects(false) // 关键：关闭自动重定向
                 .followSslRedirects(false)
                 .build();
 
@@ -205,7 +213,7 @@ public class ClientService {
             try (Response response = client.newCall(request).execute()) {
                 log.info("跳转步骤 {}: {} -> 状态码 {}", i + 1, currentUrl, response.code());
 
-                // 🔍 提取 Set-Cookie 中的新 Cookie（包括 route）
+                // 提取 Set-Cookie 中的新 Cookie（包括 route）
                 List<String> setCookieHeaders = response.headers("Set-Cookie");
                 for (String setCookie : setCookieHeaders) {
                     // 解析 "route=abc123; Path=/; HttpOnly" 这样的字符串
@@ -254,8 +262,10 @@ public class ClientService {
      * @param scoreQuery
      * @return
      */
+    @Transactional
     public List<Score> queryScore(ScoreQuery scoreQuery) {
-        log.info("正在查询成绩：学年={}，学期={}", scoreQuery.getXnmmc(), scoreQuery.getXqmmc());
+        log.info("成绩查询参数{}",scoreQuery.toString());
+        //log.info("正在查询成绩：学年={}，学期={}", scoreQuery.getXnmmc(), scoreQuery.getXqmmc());
 
         // 1.从参数中获取 JSESSIONID,route
         String jsession = scoreQuery.getJSESSIONID();
@@ -321,7 +331,7 @@ public class ClientService {
                     JsonObject item = items.get(i).getAsJsonObject();
 
                     Score score = new Score();
-                    score.setStudentId(scoreQuery.getAccount()); // 如果有传
+                    score.setStudentId(scoreQuery.getAccount());
                     score.setYear(item.has("xnmmc") ? item.get("xnmmc").getAsString() : "");
                     score.setSemester(item.has("xqmmc") ? item.get("xqmmc").getAsString() : "");
                     score.setCourseName(item.has("kcmc") ? item.get("kcmc").getAsString() : "");
@@ -330,13 +340,47 @@ public class ClientService {
                     score.setCredit(parseDouble(item, "xf"));
                     score.setGrade(parseDouble(item, "cj")); // zcj = 最终成绩
                     score.setPoint(parseDouble(item, "jd"));  // 如果有 jd 字段
+                    if(score.getGrade()== null){
+                        score.setGrade(score.getPoint()*10+40);
+                    }
                     score.setGpa(parseDouble(item,"xfjd"));// 注意：gpa = credit * point，可计算也可直接取 xfjd（如果返回）
 
+                    log.info("-------------------{}-{}-{}-{}",
+                            score.getGpa(),parseDouble(item,"xfjd"),score.getPoint(),score.getCredit());
+                    if((score.getGpa()==0||parseDouble(item,"xfjd")!=null) && score.getPoint()!=0&score.getCredit()!=0){
+                        //score.setGpa(score.getCredit()*score.getPoint());
+                    }
                     scoreList.add(score);
                 }
             }
 
             log.info("成功解析 {} 门课程成绩", scoreList.size());
+
+            // 将查询的成绩存储到数据库（仅插入新数据）
+            String studentId = scoreQuery.getAccount();
+            // 1. 查询该学生已存在的课程名
+            List<String> existingCourses = scoreMapper.findExistingCourseNamesByStudentId(studentId);
+            Set<String> existingSet = new HashSet<>(existingCourses);
+
+            // 2. 过滤出新成绩
+            List<Score> newScores = scoreList.stream()
+                    .filter(score -> !existingSet.contains(score.getCourseName()))
+                    .peek(score -> {
+                        // 补充必要字段
+                        score.setStudentId(studentId);
+                        score.setCreateTime(LocalDateTime.now());
+                        score.setUpdateTime(LocalDateTime.now());
+                    })
+                    .collect(Collectors.toList());
+
+            // 3. 批量插入新成绩
+            if (!newScores.isEmpty()) {
+                scoreMapper.insertScores(newScores);
+                log.info("成功插入 {} 条新成绩记录", newScores.size());
+            } else {
+                log.info("无新成绩需要插入");
+            }
+
             return scoreList;
         } catch (IOException e) {
             log.error("查询成绩时发生 IO 异常", e);
@@ -348,7 +392,7 @@ public class ClientService {
             String value = obj.get(key).getAsString().trim(); // ← 这里需要字符串
             if (!value.isEmpty() && !value.equals("null") && !value.equals("--")) {
                 try {
-                    return Double.parseDouble(value);
+                    return new BigDecimal(Double.parseDouble(value)).setScale(2, RoundingMode.HALF_UP).doubleValue();
                 } catch (NumberFormatException ignored) {
                 }
             }

@@ -59,6 +59,7 @@ public class ClientController {
     @PostMapping("/queryScore")
     public Result QueryScore(@RequestBody ScoreQuery scoreQuery){
         List<Score> scoreList = clientService.queryScore(scoreQuery);
+        log.info(scoreList.toString());
         return Result.success(scoreList);
     }
 

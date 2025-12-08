@@ -10,7 +10,8 @@ const form_score = ref({
   xnmmc: '',
   xqmmc: '',
   JSESSIONID:'',
-  route:''
+  route:'',
+  account:''
 })
 
 const loading = ref(false)
@@ -19,6 +20,7 @@ const error = ref('')
 const scoreList = ref([])
 
 const year = ref('')
+var years= [2022, 2023, 2024, 2025, 2026]
 const semester = ref('')
 let id= ''
 let total=''
@@ -55,6 +57,7 @@ const queryScore = async () => {
   //1.将cookies传入
   form_score.value.JSESSIONID= localStorage.getItem('JSESSIONID')
   form_score.value.route = localStorage.getItem('route')
+  form_score.value.account = localStorage.getItem('account')
 
   try {
     // 调用后端登录接口
@@ -115,17 +118,43 @@ const queryScore = async () => {
       <pre>{{ result.substring(0, 1000) }}...</pre>
     </div>
 
+<!--    <el-form :model="form_score" label-width="80px" @submit.prevent="queryScore">-->
+<!--      <el-form-item label="学年">-->
+<!--        <el-input v-model="form_score.xnmmc" placeholder="请输入学年" />-->
+<!--      </el-form-item>-->
+<!--      <el-form-item label="学期">-->
+<!--        <el-input v-model="form_score.xqmmc"  placeholder="请输入学年" />-->
+<!--      </el-form-item>-->
+<!--      <el-form-item>-->
+<!--        <el-button type="primary" native-type="submit">-->
+<!--          查询成绩-->
+<!--        </el-button>-->
+<!--      </el-form-item>-->
+<!--    </el-form>-->
+
     <el-form :model="form_score" label-width="80px" @submit.prevent="queryScore">
+      <!-- 学年选择（实际是学年起始年，如 2024 表示 2024-2025 学年） -->
       <el-form-item label="学年">
-        <el-input v-model="form_score.xnmmc" placeholder="请输入学年" />
+        <el-select v-model="form_score.xnmmc" placeholder="请选择学年">
+          <el-option
+              v-for="year in years"
+              :key="year"
+              :label="`${year}-${year + 1}`"
+              :value="String(year)"
+          />
+        </el-select>
       </el-form-item>
+
+      <!-- 学期选择 -->
       <el-form-item label="学期">
-        <el-input v-model="form_score.xqmmc"  placeholder="请输入学年" />
+        <el-select v-model="form_score.xqmmc" placeholder="请选择学期">
+          <el-option label="秋季-1" :value="3" />
+          <el-option label="春季-2" :value="12" />
+        </el-select>
       </el-form-item>
+
       <el-form-item>
-        <el-button type="primary" native-type="submit">
-          查询成绩
-        </el-button>
+        <el-button type="primary" native-type="submit">查询成绩</el-button>
       </el-form-item>
     </el-form>
 
