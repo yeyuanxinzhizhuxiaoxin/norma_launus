@@ -46,20 +46,19 @@ create table data_cache_meta
 
 create table schedule_system
 (
-    id          bigint auto_increment
-        primary key,
-    student_id  varchar(50)  not null comment '学号',
-    semester    varchar(20)  not null comment '学期，如 2024-2025-1',
-    course_name varchar(100) not null comment '对应 kcmc',
-    teacher     varchar(50)  null comment '对应 xm',
-    location    varchar(100) null comment '对应 cdmc',
-    day_of_week int          not null comment '星期几 1-7, 对应 xqj',
-    start_node  int          not null comment '开始节次, 解析 jcs 得到',
-    end_node    int          not null comment '结束节次',
-    week_list   json         not null comment '核心：存储该课有效的周次数组，如 [1,2,3,4]',
-    raw_zcd     varchar(50)  null comment '原始周次字符串，方便排查',
-    constraint uk_course
-        unique (student_id, semester, day_of_week, start_node)
+    id          bigint auto_increment primary key,
+    student_id  varchar(50)  not null,
+    semester    varchar(20)  not null,
+    course_name varchar(100) not null,
+    teacher     varchar(50)  null,
+    location    varchar(100) null,
+    day_of_week int          not null,
+    start_node  int          not null,
+    end_node    int          not null,
+    week_list   json         not null,
+    raw_zcd     varchar(50)  null
+    -- 建议添加普通联合索引，方便查询
+    -- KEY idx_std_sem (student_id, semester)
 );
 
 create table schedule_user
