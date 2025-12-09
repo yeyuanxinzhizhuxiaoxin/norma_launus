@@ -1,77 +1,68 @@
 package com.partner.controller;
 
-
-import com.partner.entity.*;
-import com.partner.service.ClientService;
+import com.partner.dto.CommonQueryDTO;
+import com.partner.dto.LoginDTO;
+import com.partner.entity.Result;
+import com.partner.service.AuthService;
+import com.partner.service.CurriculumService;
+import com.partner.service.ScoreService;
 import lombok.extern.slf4j.Slf4j;
-import okhttp3.OkHttpClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-import java.util.Map;
-
 
 @Slf4j
 @RestController
 @RequestMapping("/client")
 public class ClientController {
+
     @Autowired
-    ClientService clientService;
+    private AuthService authService;
+
+    @Autowired
+    private ScoreService scoreService;
+
+    @Autowired
+    private CurriculumService curriculumService;
 
     /**
      * 客户登录
-     * @param client
-     * @return
      */
     @PostMapping("/login")
-    public Result Login(@RequestBody Client client){
-        log.info("客户登录信息：{}",client);
-        try{
-            // 1.在数据库中查询是否有这个客户
-            Client client1 = clientService.findClientByAccount(client.getAccount());
-            if(client1 == null){
-                clientService.InsertClient(client);
-            }
-            // 2.登录服务门户获取Cookies中的JSESSIONID
-            //客户登录服务门户，并返回已认证的 HttpClient（包含完整 Cookie 上下文）
-            //OkHttpClient userHttpClient = clientService.loginServicePortal(client);
-            //String js = clientService.loginServicePortal(client);
-            LoginContext loginContext = clientService.loginServicePortal(client);
-
-
-            // 3.登录教务系统
-            //String outCame = clientService.enterJiaowuSystem(userHttpClient);
-            Map<String,String> cookies= clientService.enterJiaowuSystem(loginContext);
-
-            return Result.success(cookies);
-        }catch (Exception e){
+    public Result login(@RequestBody LoginDTO loginDTO) {
+        try {
+            log.info("用户登录: {}", loginDTO.getAccount());
+            return Result.success(authService.login(loginDTO));
+        } catch (Exception e) {
+            log.error("登录失败", e);
             return Result.error(e.getMessage());
         }
     }
 
-
     /**
      * 客户查询成绩
-     * @param scoreQuery
-     * @return
      */
     @PostMapping("/queryScore")
-    public Result QueryScore(@RequestBody ScoreQuery scoreQuery){
-        List<Score> scoreList = clientService.queryScore(scoreQuery);
-        log.info(scoreList.toString());
-        return Result.success(scoreList);
+    public Result queryScore(@RequestBody CommonQueryDTO queryDTO) {
+        try {
+            log.info("查询成绩: {}", queryDTO.getAccount());
+            return Result.success(scoreService.syncScores(queryDTO));
+        } catch (Exception e) {
+            log.error("成绩查询失败", e);
+            return Result.error(e.getMessage());
+        }
     }
 
-
-    @GetMapping("/queryClassSchedule")
-    public Result QueryClassSchedule(){
-        return Result.success();
-    }
-
-
-    @PostMapping("bookSeat")
-    public Result BookSeat(){
-        return Result.success();
+    /**
+     * 客户查询课表
+     */
+    @PostMapping("/queryClassSchedule")
+    public Result queryClassSchedule(@RequestBody CommonQueryDTO queryDTO) {
+        try {
+            log.info("查询课表: {}", queryDTO.getAccount());
+            return Result.success(curriculumService.getWeeklySchedule(queryDTO));
+        } catch (Exception e) {
+            log.error("课表查询失败", e);
+            return Result.error(e.getMessage());
+        }
     }
 }
