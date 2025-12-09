@@ -29,42 +29,70 @@ public class AuthService {
     ClientMapper clientMapper;
 
     /**
-     * 登录主逻辑：包含数据库注册和爬虫模拟登录
+     * 登录逻辑：
+     * 1. 先尝试爬虫登录教务系统 (验证账号有效性)
+     * 2. 验证通过后，检查数据库
+     * 3. 如果是首次登录，将用户信息存入数据库
      */
     @Transactional(rollbackFor = Exception.class)
     public LoginVO login(LoginDTO loginDTO) {
-        Client dbClient = clientMapper.findClientByAccount(loginDTO.getAccount());
+        // --- 1. 验证阶段：尝试登录教务系统 ---
+        log.info("尝试登录教务系统验证账号: {}", loginDTO.getAccount());
 
-        // 注册逻辑更新
-        if (dbClient == null) {
-            Client newClient = new Client();
-            newClient.setAccount(loginDTO.getAccount());
-            newClient.setPassword(loginDTO.getPassword());
-            newClient.setName("同学" + loginDTO.getAccount()); // 默认昵称
-            newClient.setRole(0); // 默认为普通用户
+        // 构建临时 Client 对象用于爬虫验证
+        Client tempClient = new Client();
+        tempClient.setAccount(loginDTO.getAccount());
+        tempClient.setPassword(loginDTO.getPassword());
 
-            clientMapper.insertClient(newClient);
-            dbClient = newClient; // 更新引用以便后续使用
-        }
-
-        // 2. 爬虫逻辑：执行 CAS 登录
-        LoginContext ctx = loginServicePortal(client);
+        LoginContext ctx;
+        Map<String, String> cookies;
 
         try {
-            // 3. 爬虫逻辑：获取教务系统最终 Cookies
-            Map<String, String> cookies = enterJiaowuSystem(ctx);
-
-            return LoginVO.builder()
-                    .jsessionid(cookies.get("JSESSIONID"))
-                    .route(cookies.getOrDefault("route", ""))
-                    .build();
-        } catch (IOException e) {
-            log.error("登录异常", e);
-            throw new RuntimeException("登录教务系统失败: " + e.getMessage());
+            // 执行爬虫登录
+            ctx = loginServicePortal(tempClient);
+            // 获取最终 Cookies
+            cookies = enterJiaowuSystem(ctx);
+        } catch (Exception e) {
+            // 登录失败（密码错误、系统崩溃等），直接抛出异常，不操作数据库
+            log.warn("教务系统登录失败: {}", e.getMessage());
+            throw new RuntimeException("登录失败：请检查账号密码是否正确，或教务系统是否开放。");
         }
+
+        // --- 2. 数据库阶段：处理本地用户存储 ---
+        Client dbClient = clientMapper.findClientByAccount(loginDTO.getAccount());
+
+        if (dbClient == null) {
+            // 首次登录：创建新用户并入库
+            dbClient = new Client();
+            dbClient.setAccount(loginDTO.getAccount());
+            dbClient.setPassword(loginDTO.getPassword());
+            dbClient.setName("同学" + loginDTO.getAccount()); // 设置默认昵称
+            dbClient.setRole(0); // 默认为普通用户
+
+            clientMapper.insertClient(dbClient);
+            log.info("新用户首次登录，已自动入库: {}", loginDTO.getAccount());
+        } else {
+            // 非首次登录
+            log.info("老用户登录: {}", loginDTO.getAccount());
+            // (可选) 如果需要，可以在这里更新数据库中的密码，保持与教务系统一致
+            /*
+            if (!dbClient.getPassword().equals(loginDTO.getPassword())) {
+                dbClient.setPassword(loginDTO.getPassword());
+                // clientMapper.updateClient(dbClient); // 需要在Mapper中添加update方法
+            }
+            */
+        }
+
+        // --- 3. 返回结果 ---
+        return LoginVO.builder()
+                .jsessionid(cookies.get("JSESSIONID"))
+                .route(cookies.getOrDefault("route", ""))
+                .role(dbClient.getRole()) // 返回数据库中的角色
+                .name(dbClient.getName())
+                .build();
     }
 
-    // --- 以下为私有爬虫底层方法 (从原 ClientService 迁移) ---
+    // --- 以下为爬虫底层私有方法 (保持原有逻辑不变) ---
 
     private LoginContext loginServicePortal(Client client) {
         CookieManager userCookieManager = new CookieManager();
@@ -111,7 +139,9 @@ public class AuthService {
             Request loginRequest = new Request.Builder().url(loginUrl).post(formBody).build();
 
             try (Response loginResponse = userHttpClient.newCall(loginRequest).execute()) {
-                if (loginResponse.code() != 302) throw new IOException("CAS 登录验证失败");
+                // CAS 登录成功通常重定向(302)，如果返回200通常意味着还在登录页(失败)
+                if (loginResponse.code() != 302) throw new IOException("CAS 登录验证失败(密码错误)");
+
                 String location = loginResponse.header("Location");
                 if (location == null || !location.contains("ticket=")) throw new IOException("未获取到 ticket");
 
@@ -132,7 +162,7 @@ public class AuthService {
             return new LoginContext(userHttpClient, jsession, "");
 
         } catch (Exception e) {
-            throw new RuntimeException("CAS 认证服务异常", e);
+            throw new RuntimeException(e);
         }
     }
 
@@ -144,6 +174,7 @@ public class AuthService {
         Map<String, String> cookies = new HashMap<>();
         cookies.put("JSESSIONID", ctx.getJSESSIONID());
 
+        // 尝试跳转并处理重定向，以获取 Route 等 Cookie
         for (int i = 0; i < 10; i++) {
             Request.Builder req = new Request.Builder().url(currentUrl);
             String cookieStr = cookies.entrySet().stream()
@@ -151,7 +182,6 @@ public class AuthService {
             if (!cookieStr.isEmpty()) req.addHeader("Cookie", cookieStr);
 
             try (Response response = client.newCall(req.build()).execute()) {
-                // 提取 Set-Cookie (特别是 route)
                 List<String> setCookies = response.headers("Set-Cookie");
                 for (String sc : setCookies) {
                     String[] parts = sc.split(";")[0].split("=", 2);
