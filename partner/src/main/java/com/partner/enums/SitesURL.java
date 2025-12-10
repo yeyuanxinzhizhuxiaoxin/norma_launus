@@ -17,6 +17,7 @@ public enum SitesURL {
     JWGL_LOGIN_URL("https://jwglxt.haut.edu.cn/sso/jhlogin"),
     //成绩查询接口（正方教务系统典型路径）
     SCORE_QUERY_URL(SitesURL.JWGL_BASE_URL.getUrl()+"/jwglxt/cjcx/cjcx_cxXsgrcj.html?doType=query&gnmkdm=N305005");
+    //课表查询接口
 
     private final String url;
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.partner.mapper.LibraryMapper">
+
+    <insert id="saveProfile">
+        INSERT INTO library_profile (student_id, password, seat_label, seat_id, auto_enable, send_key)
+        VALUES (#{studentId}, #{password}, #{seatLabel}, #{seatId}, #{autoEnable}, #{sendKey})
+        ON DUPLICATE KEY UPDATE
+        password = #{password},
+        seat_label = #{seatLabel},
+        seat_id = #{seatId},
+        auto_enable = #{autoEnable},
+        send_key = #{sendKey}
+    </insert>
+
+</mapper>

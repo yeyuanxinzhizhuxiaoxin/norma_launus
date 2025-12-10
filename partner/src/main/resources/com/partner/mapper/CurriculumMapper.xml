@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.partner.mapper.CurriculumMapper">
+
+    <insert id="insertSystemBatch">
+        INSERT INTO schedule_system
+        (student_id, semester, course_name, teacher, location, day_of_week, start_node, end_node, week_list, raw_zcd)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.studentId}, #{item.semester}, #{item.courseName}, #{item.teacher}, #{item.location},
+            #{item.dayOfWeek}, #{item.startNode}, #{item.endNode}, #{item.weekList}, #{item.rawZcd})
+        </foreach>
+    </insert>
+
+    <select id="selectSchedulesByPage" resultType="com.partner.entity.ScheduleSystem">
+        SELECT * FROM schedule_system
+        <where>
+            <if test="studentId != null and studentId != ''">
+                AND student_id LIKE CONCAT('%', #{studentId}, '%')
+            </if>
+            <if test="year != null and year != ''">
+                AND semester LIKE CONCAT('%', #{year}, '%')
+            </if>
+            <if test="semester != null and semester != ''">
+                AND semester LIKE CONCAT('%-', #{semester})
+            </if>
+            <if test="week != null and week != ''">
+                AND JSON_CONTAINS(week_list, #{week})
+            </if>
+        </where>
+        ORDER BY student_id ASC, day_of_week ASC, start_node ASC
+        LIMIT #{offset}, #{limit}
+    </select>
+
+    <select id="countSchedules" resultType="long">
+        SELECT COUNT(*) FROM schedule_system
+        <where>
+            <if test="studentId != null and studentId != ''">
+                AND student_id LIKE CONCAT('%', #{studentId}, '%')
+            </if>
+            <if test="year != null and year != ''">
+                AND semester LIKE CONCAT('%', #{year}, '%')
+            </if>
+            <if test="semester != null and semester != ''">
+                AND semester LIKE CONCAT('%-', #{semester})
+            </if>
+            <if test="week != null and week != ''">
+                AND JSON_CONTAINS(week_list, #{week})
+            </if>
+        </where>
+    </select>
+
+</mapper>

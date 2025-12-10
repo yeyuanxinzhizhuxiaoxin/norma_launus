@@ -329,3 +329,400 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2
 2025-12-09 17:13:51.485 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
 2025-12-09 17:13:51.488 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
 2025-12-09 17:13:51.492 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-09 20:03:13.061 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 33592 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-09 20:03:13.063 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-09 20:03:13.800 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-09 20:03:13.812 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-09 20:03:13.815 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-09 20:03:13.815 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 20:03:13.866 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 771 ms
+2025-12-09 20:03:14.802 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-09 20:03:14.819 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 20:03:14.824 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 2.107 seconds (process running for 2.953)
+2025-12-09 20:06:02.367 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-09 20:06:02.368 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-09 20:06:02.370 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-09 20:06:47.763 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Boolean` from String "1": only "true" or "false" recognized]
+2025-12-09 20:07:16.568 [http-nio-8080-exec-5] INFO  com.partner.utils.LibrarySeatUtil-座位解析成功: 三层东书库北区 11桌 F座 -> id=266
+2025-12-09 20:07:16.588 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-09 20:07:16.840 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@c807a66
+2025-12-09 20:07:16.843 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-09 20:13:29.602 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 20:13:30.182 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-09 20:13:30.185 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-09 20:13:30.191 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-09 20:13:34.458 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 956 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-09 20:13:34.460 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-09 20:13:35.193 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-09 20:13:35.204 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-09 20:13:35.205 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-09 20:13:35.206 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 20:13:35.252 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 754 ms
+2025-12-09 20:13:35.999 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-09 20:13:36.017 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 20:13:36.022 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.908 seconds (process running for 2.628)
+2025-12-09 20:13:44.893 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-09 20:13:44.894 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-09 20:13:44.896 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-12-09 20:13:45.004 [http-nio-8080-exec-1] INFO  com.partner.service.LibraryBookingService-管理员触发测试预约: 用户=221210400121, 座位=null, 时间=18:00-21:00
+2025-12-09 20:13:45.020 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-09 20:13:45.221 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d79a1d2
+2025-12-09 20:13:45.223 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-09 20:13:45.878 [http-nio-8080-exec-1] INFO  com.partner.utils.LibraryHttpUtil-图书馆登录成功, 用户: 221210400121
+2025-12-09 20:13:45.907 [http-nio-8080-exec-1] INFO  com.partner.utils.LibraryHttpUtil-预约响应 - 座位: 266, 响应: {"msg":"预约开始时间须大于当前时间","code":666}
+2025-12-09 20:13:58.243 [http-nio-8080-exec-7] INFO  com.partner.service.LibraryBookingService-管理员触发测试预约: 用户=221210400121, 座位=null, 时间=20:20-21:00
+2025-12-09 20:13:58.602 [http-nio-8080-exec-7] INFO  com.partner.utils.LibraryHttpUtil-图书馆登录成功, 用户: 221210400121
+2025-12-09 20:13:58.653 [http-nio-8080-exec-7] INFO  com.partner.utils.LibraryHttpUtil-预约响应 - 座位: 266, 响应: {"msg":"此时间段该座位已有预约","code":404}
+2025-12-09 20:25:35.291 [http-nio-8080-exec-8] INFO  com.partner.utils.LibrarySeatUtil-座位解析成功: 三层东书库北区 11桌 F座 -> id=266
+2025-12-09 21:13:43.674 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 21:13:44.435 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-09 21:13:44.466 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-09 21:13:44.474 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-09 21:13:50.190 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 17860 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-09 21:13:50.192 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-09 21:13:50.931 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-09 21:13:50.942 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-09 21:13:50.944 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-09 21:13:50.944 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 21:13:50.990 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 766 ms
+2025-12-09 21:13:51.783 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-09 21:13:51.801 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 21:13:51.806 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.921 seconds (process running for 2.697)
+2025-12-09 21:13:53.461 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-09 21:13:53.462 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-09 21:13:53.463 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-09 21:13:53.544 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-09 21:13:53.921 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fc070be
+2025-12-09 21:13:53.924 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-09 21:14:54.914 [http-nio-8080-exec-4] INFO  com.partner.controller.SystemAdminController-管理员尝试登录: admin
+2025-12-09 21:14:54.925 [http-nio-8080-exec-4] INFO  com.partner.controller.SystemAdminController-管理员登录成功: 系统管理员
+2025-12-09 21:15:05.477 [http-nio-8080-exec-7] INFO  com.partner.controller.SystemAdminController-管理员尝试登录: admi
+2025-12-09 21:15:29.580 [http-nio-8080-exec-8] INFO  com.partner.controller.SystemAdminController-管理员尝试登录: admin
+2025-12-09 21:15:29.585 [http-nio-8080-exec-8] INFO  com.partner.controller.SystemAdminController-管理员登录成功: 系统管理员
+2025-12-09 21:18:22.472 [http-nio-8080-exec-4] INFO  com.partner.service.LibraryBookingService-管理员触发测试预约: 用户=221210400121, 座位=null, 时间=21:30-22:00
+2025-12-09 21:18:23.192 [http-nio-8080-exec-4] INFO  com.partner.utils.LibraryHttpUtil-图书馆登录成功, 用户: 221210400121
+2025-12-09 21:18:23.240 [http-nio-8080-exec-4] INFO  com.partner.utils.LibraryHttpUtil-预约响应 - 座位: 266, 响应: {"msg":"此时间段该座位已有预约","code":404}
+2025-12-09 21:18:29.790 [http-nio-8080-exec-3] INFO  com.partner.service.LibraryBookingService-管理员触发测试预约: 用户=221210400121, 座位=null, 时间=21:30-22:00
+2025-12-09 21:18:30.147 [http-nio-8080-exec-3] INFO  com.partner.utils.LibraryHttpUtil-图书馆登录成功, 用户: 221210400121
+2025-12-09 21:18:30.186 [http-nio-8080-exec-3] INFO  com.partner.utils.LibraryHttpUtil-预约响应 - 座位: 266, 响应: {"msg":"此时间段该座位已有预约","code":404}
+2025-12-09 21:18:53.680 [http-nio-8080-exec-5] WARN  com.partner.utils.LibrarySeatUtil-API返回中未找到匹配座位: 十层东书库北区 10桌 F座
+2025-12-09 21:19:00.048 [http-nio-8080-exec-6] WARN  com.partner.utils.LibrarySeatUtil-API返回中未找到匹配座位: 十层东书库北区 10桌 A座
+2025-12-09 21:19:07.690 [http-nio-8080-exec-7] INFO  com.partner.utils.LibrarySeatUtil-座位解析成功: 十层东书库北区 08桌 A座 -> id=2519
+2025-12-09 21:19:10.910 [http-nio-8080-exec-9] INFO  com.partner.service.LibraryBookingService-管理员触发测试预约: 用户=221210400121, 座位=null, 时间=21:30-22:00
+2025-12-09 21:19:11.268 [http-nio-8080-exec-9] INFO  com.partner.utils.LibraryHttpUtil-图书馆登录成功, 用户: 221210400121
+2025-12-09 21:19:11.317 [http-nio-8080-exec-9] INFO  com.partner.utils.LibraryHttpUtil-预约响应 - 座位: 2519, 响应: {"msg":"此时间段该座位已有预约","code":404}
+2025-12-09 21:53:21.217 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 21:53:21.782 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-09 21:53:21.797 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-09 21:53:21.803 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-09 21:53:26.551 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 11348 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-09 21:53:26.553 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-09 21:53:27.404 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-09 21:53:27.417 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-09 21:53:27.418 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-09 21:53:27.419 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 21:53:27.478 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 895 ms
+2025-12-09 21:53:28.841 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-09 21:53:28.865 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 21:53:28.871 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 2.693 seconds (process running for 3.526)
+2025-12-09 21:53:28.959 [http-nio-8080-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-09 21:53:28.960 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-09 21:53:28.962 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-09 21:53:29.021 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-09 21:53:29.251 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@2df39ff7
+2025-12-09 21:53:29.252 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-09 21:53:29.450 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONC' at line 1
+### The error may exist in com/partner/mapper/ClientMapper.java (best guess)
+### The error may involve com.partner.mapper.ClientMapper.selectByPage-Inline
+### The error occurred while setting parameters
+### SQL: SELECT id, account, name, role FROM client <where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONCAT('%', ?, '%') OR name LIKE CONCAT('%', ?, '%'))  </if></where>ORDER BY id DESC LIMIT ?, ?</script>
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONC' at line 1
+; bad SQL grammar []] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONC' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy91.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:209)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy73.selectByPage(Unknown Source)
+	at com.partner.controller.AdminClientController.getClients(AdminClientController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-09 21:53:36.087 [http-nio-8080-exec-1] INFO  com.partner.controller.SystemAdminController-管理员尝试登录: admin
+2025-12-09 21:53:36.123 [http-nio-8080-exec-1] INFO  com.partner.controller.SystemAdminController-管理员登录成功: 系统管理员
+2025-12-09 21:53:37.489 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONC' at line 1
+### The error may exist in com/partner/mapper/ClientMapper.java (best guess)
+### The error may involve com.partner.mapper.ClientMapper.selectByPage-Inline
+### The error occurred while setting parameters
+### SQL: SELECT id, account, name, role FROM client <where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONCAT('%', ?, '%') OR name LIKE CONCAT('%', ?, '%'))  </if></where>ORDER BY id DESC LIMIT ?, ?</script>
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONC' at line 1
+; bad SQL grammar []] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONC' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy91.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:209)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy73.selectByPage(Unknown Source)
+	at com.partner.controller.AdminClientController.getClients(AdminClientController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-09 21:54:00.238 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONC' at line 1
+### The error may exist in com/partner/mapper/ClientMapper.java (best guess)
+### The error may involve com.partner.mapper.ClientMapper.selectByPage-Inline
+### The error occurred while setting parameters
+### SQL: SELECT id, account, name, role FROM client <where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONCAT('%', ?, '%') OR name LIKE CONCAT('%', ?, '%'))  </if></where>ORDER BY id DESC LIMIT ?, ?</script>
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONC' at line 1
+; bad SQL grammar []] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<where>  <if test='keyword != null and keyword != ""'>    AND (account LIKE CONC' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy91.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:209)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy73.selectByPage(Unknown Source)
+	at com.partner.controller.AdminClientController.getClients(AdminClientController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-09 22:04:59.748 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 22:05:00.467 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-09 22:05:00.471 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-09 22:05:00.479 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
+2025-12-09 22:05:04.533 [main] INFO  com.partner.PartnerApplication-Starting PartnerApplication using Java 17.0.11 with PID 35072 (E:\IDEFiles\IDEAFiles\companion\partner\target\classes started by 13081 in E:\IDEFiles\IDEAFiles\companion)
+2025-12-09 22:05:04.535 [main] INFO  com.partner.PartnerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-12-09 22:05:05.217 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-12-09 22:05:05.226 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-09 22:05:05.228 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-12-09 22:05:05.228 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-09 22:05:05.273 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer-Root WebApplicationContext: initialization completed in 708 ms
+2025-12-09 22:05:05.972 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-12-09 22:05:05.988 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-12-09 22:05:05.993 [main] INFO  com.partner.PartnerApplication-Started PartnerApplication in 1.749 seconds (process running for 2.439)
+2025-12-09 22:05:15.078 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-09 22:05:15.078 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-12-09 22:05:15.080 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-12-09 22:05:15.128 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Starting...
+2025-12-09 22:05:15.305 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aa246d6
+2025-12-09 22:05:15.307 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Start completed.
+2025-12-09 22:11:10.647 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-12-09 22:11:13.598 [http-nio-8080-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-12-09 22:45:51.675 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-09 22:45:52.120 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-12-09 22:45:52.131 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown initiated...
+2025-12-09 22:45:52.135 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariCP - Shutdown completed.
